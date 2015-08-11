@@ -1,0 +1,82 @@
+.s40 {
+    font-size: 40px;
+}
+
+.language-markup {
+    border-bottom: 100px;
+    float: left;
+}
+
+.icon-title {
+    margin: 0px;
+}
+
+.current {
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+
+/* mouse over link */
+a:hover {
+    color: #0b97c4;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+.md-padding {
+    width: 50%;
+}
+
+.md-toast-open-bottom {
+    background-color: green;
+}
+/*Farve på toolbar*/
+.md-toolbar-tools {
+    background-color: #1d508d;
+}
+
+.md-padding {
+    width: 100%;
+}
+
+.test {
+    /*background-color: red;*/
+    /*display: block;*/
+}
+
+.md-tabs-canvas {
+    table-layout: left;
+}
+
+.md-content {
+    display: inline;
+}
+
+.buttondemoBasicUsage section {
+    background: #f7f7f7;
+    border-radius: 3px;
+    text-align: center;
+    margin: 1em;
+    position: relative !important;
+    padding-bottom: 10px; }
+.buttondemoBasicUsage md-content {
+    margin-right: 7px; }
+.buttondemoBasicUsage section .md-button {
+    margin-top: 16px;
+    margin-bottom: 16px; }
+.buttondemoBasicUsage .label {
+    position: absolute;
+    bottom: 5px;
+    left: 7px;
+    font-size: 14px;
+    opacity: 0.54; }
+
+/*/!*for secondary text *!/*/
+/*.listdemoBasicUsage md-divider {*/
+/*margin-top: 10px;*/
+/*margin-bottom: 10px; }*/
