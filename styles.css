@@ -36,18 +36,18 @@ h1 {
     background-color: green;
 }
 /*Farve på toolbar*/
-.md-toolbar-tools {
-    background-color: #1d508d;
-}
+/*.md-toolbar-tools {*/
+    /*background-color: #1d508d;*/
+/*}*/
 
 .md-padding {
     width: 100%;
 }
 
-.test {
-    /*background-color: red;*/
-    /*display: block;*/
-}
+/*.test {*/
+    /*/!*background-color: red;*!/*/
+    /*/!*display: block;*!/*/
+/*}*/
 
 .md-tabs-canvas {
     table-layout: left;
@@ -80,3 +80,6 @@ h1 {
 /*.listdemoBasicUsage md-divider {*/
 /*margin-top: 10px;*/
 /*margin-bottom: 10px; }*/
+
+.toolbardemoBasicUsage md-toolbar md-icon.md-default-theme {
+    color: white; }

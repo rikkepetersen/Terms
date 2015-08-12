@@ -230,3 +230,8 @@ angular.module('buttonsDemo1', ['ngMaterial'])
         $scope.isDisabled = true;
         $scope.googleUrl = 'http://google.com';
     });
+
+//Toolbar
+angular.module('toolbarDemo1', ['ngMaterial'])
+    .controller('AppCtrl', function($scope) {
+    });
