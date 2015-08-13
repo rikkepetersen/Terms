@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6682d276-62d4-4920-a594-e3c5b57eaf89" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles.css" afterPath="$PROJECT_DIR$/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -33,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/styles.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="94" column="30" selection-start-line="94" selection-start-column="30" selection-end-line="94" selection-end-column="30" />
+              <caret line="105" column="1" selection-start-line="105" selection-start-column="1" selection-end-line="105" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -42,8 +40,8 @@
       <file leaf-file-name="angular-material.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bower_components/angular-material/angular-material.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.4444447">
-              <caret line="7046" column="23" selection-start-line="7046" selection-start-column="23" selection-end-line="7046" selection-end-column="23" />
+            <state vertical-scroll-proportion="-2.4444444">
+              <caret line="111" column="8" selection-start-line="111" selection-start-column="1" selection-end-line="111" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -53,23 +51,8 @@
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="121" column="23" selection-start-line="121" selection-start-column="23" selection-end-line="121" selection-end-column="23" />
+              <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8267477">
-              <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
-              <folding>
-                <element signature="n#style#0;n#md-input-container#0;n#div#0;n#md-toolbar#0;n#md-content#0;n#div#0;n#body#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#label#0;n#md-input-container#0;n#div#0;n#md-toolbar#0;n#md-content#0;n#div#0;n#body#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#md-icon#0;n#md-input-container#0;n#div#0;n#md-toolbar#0;n#md-content#0;n#div#0;n#body#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#md-input-container#0;n#div#0;n#md-toolbar#0;n#md-content#0;n#div#0;n#body#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -77,8 +60,8 @@
       <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node_modules/bower/node_modules/cardinal/node_modules/redeyed/examples/browser/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.5185184">
-              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            <state vertical-scroll-proportion="-6.296296">
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -87,22 +70,24 @@
       <file leaf-file-name="materialdesignicons.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bower_components/mdi/css/materialdesignicons.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-144.11111">
-              <caret line="1106" column="32" selection-start-line="1106" selection-start-column="32" selection-end-line="1106" selection-end-column="32" />
+            <state vertical-scroll-proportion="-8.111111">
+              <caret line="4382" column="2" selection-start-line="4382" selection-start-column="1" selection-end-line="4382" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="materialdesignicons.min.css.map" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bower_components/mdi/css/materialdesignicons.min.css.map">
-          <provider editor-type-id="sourcemapFileViewerProvider">
-            <state />
-          </provider>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.13787639">
+              <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+              <folding>
+                <element signature="n#style#0;n#md-input-container#0;n#div#0;n#md-toolbar#0;n#md-content#0;n#div#0;n#body#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#md-input-container#0;n#div#0;n#md-toolbar#0;n#md-content#0;n#div#0;n#body#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#md-icon#0;n#md-input-container#0;n#div#0;n#md-toolbar#0;n#md-content#0;n#div#0;n#body#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#md-input-container#0;n#div#0;n#md-toolbar#0;n#md-content#0;n#div#0;n#body#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -134,10 +119,10 @@
         <option value="$PROJECT_DIR$/node_modules/http-server/test/http-server-test.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/node_modules/bower/node_modules/cardinal/node_modules/redeyed/examples/browser/index.css" />
-        <option value="$PROJECT_DIR$/styles.css" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/bower_components/mdi/css/materialdesignicons.min.css" />
         <option value="$PROJECT_DIR$/bower_components/angular-material/angular-material.css" />
+        <option value="$PROJECT_DIR$/styles.css" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -226,46 +211,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="bower_components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Termsandconditions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Termsandconditions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mdi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Termsandconditions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Termsandconditions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mdi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -580,7 +525,7 @@
       <workItem from="1439188480102" duration="9171000" />
       <workItem from="1439235934436" duration="328000" />
       <workItem from="1439276431192" duration="15687000" />
-      <workItem from="1439361280490" duration="18339000" />
+      <workItem from="1439361280490" duration="22753000" />
     </task>
     <task id="LOCAL-00001" summary="Ready for GitHub">
       <created>1439300003782</created>
@@ -594,11 +539,17 @@
       <option name="project" value="LOCAL" />
       <updated>1439388805406</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Icons, searchfield and sidenav. added">
+      <created>1439466120781</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1439466120781</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63578000" />
+    <option name="totallyTimeSpent" value="67992000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1928" height="1164" extended-state="6" />
@@ -673,7 +624,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ready for GitHub" />
     <MESSAGE value="From the top" />
-    <option name="LAST_COMMIT_MESSAGE" value="From the top" />
+    <MESSAGE value="Icons, searchfield and sidenav. added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Icons, searchfield and sidenav. added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1023,14 +975,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="121" column="23" selection-start-line="121" selection-start-column="23" selection-end-line="121" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bower_components/mdi/css/materialdesignicons.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.103186645">
@@ -1039,26 +983,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/bower/node_modules/cardinal/node_modules/redeyed/examples/browser/index.css">
+    <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5185184">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/angular-material/angular-material.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.4444447">
-          <caret line="7046" column="23" selection-start-line="7046" selection-start-column="23" selection-end-line="7046" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bower_components/mdi/css/materialdesignicons.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-144.11111">
-          <caret line="1106" column="32" selection-start-line="1106" selection-start-column="32" selection-end-line="1106" selection-end-column="32" />
+        <state vertical-scroll-proportion="-8.111111">
+          <caret line="4382" column="2" selection-start-line="4382" selection-start-column="1" selection-end-line="4382" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/bower/node_modules/cardinal/node_modules/redeyed/examples/browser/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.296296">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/angular-material/angular-material.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.4444444">
+          <caret line="111" column="8" selection-start-line="111" selection-start-column="1" selection-end-line="111" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -1066,15 +1018,15 @@
     <entry file="file://$PROJECT_DIR$/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="94" column="30" selection-start-line="94" selection-start-column="30" selection-end-line="94" selection-end-column="30" />
+          <caret line="105" column="1" selection-start-line="105" selection-start-column="1" selection-end-line="105" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8267477">
-          <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.13787639">
+          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
           <folding>
             <element signature="n#style#0;n#md-input-container#0;n#div#0;n#md-toolbar#0;n#md-content#0;n#div#0;n#body#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#label#0;n#md-input-container#0;n#div#0;n#md-toolbar#0;n#md-content#0;n#div#0;n#body#0;n#div#0;n#!!top" expanded="true" />

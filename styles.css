@@ -11,14 +11,6 @@
     margin: 0px;
 }
 
-.current {
-    background-color: #ffffff;
-    color: #000000;
-    border-radius: 4px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-}
-
 /* mouse over link */
 a:hover {
     color: #0b97c4;
@@ -28,9 +20,9 @@ h1 {
     font-size: 35px;
 }
 
-.md-padding {
-    width: 50%;
-}
+/*.md-padding {*/
+    /*width: 50%;*/
+/*}*/
 
 .md-toast-open-bottom {
     background-color: green;
@@ -99,3 +91,16 @@ h1 {
 .tooltipdemoBasicUsage .right {
     top: 70px !important;
     right: 56px !important; }
+
+.md-button {
+    padding: 0 6px 0 6px;
+    margin: 6px 8px 6px 8px;
+    min-width: 88px;
+    border-radius: 3px;
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration:none;
+    border: none;
+    outline: none;
+}

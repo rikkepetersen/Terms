@@ -32,6 +32,17 @@
                     </h2>
                     <span flex></span>
 
+
+                    <!--Søgefelt i toolbar-->
+                    <md-input-container class="md-icon-float" layout-align style="color:white">
+                        <md-tooltip>
+                            Søg på vilkårsnummer eller ord
+                        </md-tooltip>
+                        <label style="color:white">Søg</label>
+                        <md-icon md-font-icon="mdi mdi-magnify" style="color:white"></md-icon>
+                        <input ng-model="user.search" style="color:white">
+                    </md-input-container>
+
                     <!--Knapper i toolbar-->
                     <md-button class="md-icon-button icon-size">
                         <md-tooltip>
@@ -67,17 +78,6 @@
                         </md-tooltip>
                         <i class="mdi mdi-email-outline"></i>
                     </md-button>
-
-                    <!--Søgefelt i toolbar-->
-                    <md-input-container class="md-icon-float" layout-align style="color:white">
-                        <md-tooltip>
-                            Søg på vilkårsnummer eller ord
-                        </md-tooltip>
-                        <label style="color:white">Søg</label>
-                        <md-icon md-font-icon="mdi mdi-magnify" style="color:white"></md-icon>
-                        <input ng-model="user.search" style="color:white">
-                    </md-input-container>
-
                 </div>
             </md-toolbar>
         </md-content>
@@ -217,13 +217,11 @@
                             </md-sidenav>
                         </div>
 
-                        <div>
-                            <md-content class="md-padding">
-                                <p>Integer turpis erat, porttitor vitae mi faucibus, laoreet interdum tellus. Curabitur posuere molestie dictum. Morbi eget congue risus, quis rhoncus quam.<br>
-                                    Suspendisse vitae hendrerit erat, at posuere mi. Cras eu fermentum nunc. Sed id ante eu orci commodo volutpat non ac est.<br>
-                                    Praesent ligula diam, congue eu enim scelerisque, finibus commodo lectus.</p>
-                            </md-content>
-                        </div>
+                        <p>Integer turpis erat, porttitor vitae mi faucibus, laoreet interdum tellus. Curabitur posuere molestie dictum. Morbi eget congue risus, quis rhoncus quam.<br>
+                            Suspendisse vitae hendrerit erat, at posuere mi. Cras eu fermentum nunc. Sed id ante eu orci commodo volutpat non ac est.<br>
+                            Praesent ligula diam, congue eu enim scelerisque, finibus commodo lectus.
+                        </p>
+
                     </md-tab>
                 </md-tabs>
             </md-content>
