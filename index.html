@@ -27,275 +27,224 @@
             <md-toolbar class="md-tall md-toolbar-tools">
                 <div class="md-toolbar-tools">
 
-                    <md-button class="md-icon-button">
-                        <i class="mdi mdi-menu"></i>
-                    </md-button>
                     <h2>
-                        <span>Toolbar with Icon Buttons</span>
+                        <span>Vilkår & retningslinjer</span>
                     </h2>
                     <span flex></span>
 
-                    <md-button class="md-icon-button">
-                        <i class="mdi mdi-magnify"></i>
+                    <!--Knapper i toolbar-->
+                    <md-button class="md-icon-button icon-size">
+                        <md-tooltip>
+                            Zoom ind
+                        </md-tooltip>
+                        <i class="mdi mdi-magnify-plus"></i>
                     </md-button>
 
-                    <md-button class="md-icon-button">
-                        <i class="mdi mdi-dots-vertical"></i>
+                    <md-button class="icon-size md-icon-button">
+                        <md-tooltip>
+                            Zoom ud
+                        </md-tooltip>
+                        <i class="mdi mdi-magnify-minus"></i>
                     </md-button>
+
+                    <md-button class="icon-size md-icon-button">
+                        <md-tooltip>
+                            Kommentar
+                        </md-tooltip>
+                        <i class="mdi mdi-comment-outline"></i>
+                    </md-button>
+
+                    <md-button class="icon-size md-icon-button">
+                        <md-tooltip>
+                            Highlight
+                        </md-tooltip>
+                        <i class="mdi mdi-pencil"></i>
+                    </md-button>
+
+                    <md-button class="icon-size md-icon-button">
+                        <md-tooltip>
+                            Mail til kunde
+                        </md-tooltip>
+                        <i class="mdi mdi-email-outline"></i>
+                    </md-button>
+
+                    <!--Søgefelt i toolbar-->
+                    <md-input-container class="md-icon-float" layout-align style="color:white">
+                        <md-tooltip>
+                            Søg på vilkårsnummer eller ord
+                        </md-tooltip>
+                        <label style="color:white">Søg</label>
+                        <md-icon md-font-icon="mdi mdi-magnify" style="color:white"></md-icon>
+                        <input ng-model="user.search" style="color:white">
+                    </md-input-container>
+
                 </div>
             </md-toolbar>
         </md-content>
 
+        <!--TABS-->
         <div>
             <md-content class="md-padding">
-                <md-tabs md-dynamic-height md-border-bottom>
+                <md-tabs  md-no-ink md-border-bottom>
                     <md-tab label="Topdanmark">
+
+                        <!--Sidenav-->
+                        <div layout="row" flex>
+                            <md-sidenav layout="column" class="md-sidenav-left md-whiteframe-z2" md-component-id="left" md-no-ink md-is-locked-open="$mdMedia('gt-sm')">
+                                <md-list>
+                                    <md-list-item>
+                                        <a>Hjemforsikring
+                                            <md-subheader class="md-no-sticky">6650-4-01.14</md-subheader>
+                                        </a>
+                                    </md-list-item>
+
+                                    <md-list-item>
+                                        <a>Hjem
+                                            <md-subheader class="md-no-sticky">6503-2-10.06</md-subheader>
+                                            <md-subheader class="md-no-sticky">4789-4-10.84</md-subheader></a>
+                                    </md-list-item>
+
+                                    <md-list-item>
+                                        <a>Elektronikforsikring<br>
+                                            Policevedlæg
+                                            <md-subheader class="md-no-sticky">5985-1-11.08</md-subheader>
+                                            <md-subheader class="md-no-sticky">6503-1-11.02</md-subheader>
+                                            <md-subheader class="md-no-sticky">4798-5-06.98</md-subheader>
+                                            <md-subheader class="md-no-sticky">4789-5-BL (Bilag)</md-subheader></a>
+                                    </md-list-item>
+
+                                    <md-list-item>
+                                        <a>Boligforsikring, Hjem
+                                            <md-subheader class="md-no-sticky">6576-2-06.08</md-subheader>
+                                            <md-subheader class="md-no-sticky">6576-1-01.08</md-subheader>
+                                            <md-subheader class="md-no-sticky">6222-1-03.92</md-subheader></a>
+                                    </md-list-item>
+                                </md-list>
+                            </md-sidenav>
+                        </div>
+
+                        <!--Text-->
                         <md-content class="md-padding">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla venenatis ante augue. Phasellus volutpat neque ac dui mattis vulputate. Etiam consequat aliquam cursus. In sodales pretium ultrices. Maecenas lectus est, sollicitudin consectetur felis nec, feugiat ultricies mi.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla venenatis ante augue. Phasellus volutpat neque ac dui mattis vulputate.<br>
+                                Etiam consequat aliquam cursus. In sodales pretium ultrices. Maecenas lectus est, sollicitudin consectetur felis nec, feugiat ultricies mi.</p>
                         </md-content>
                     </md-tab>
+
                     <md-tab label="danske forsikring">
+
+                        <!--Sidenav-->
+                        <div layout="row" flex>
+                            <md-sidenav layout="column" class="md-sidenav-left md-whiteframe-z2" md-component-id="left" md-no-ink md-is-locked-open="$mdMedia('gt-sm')">
+                                <md-list>
+                                    <md-list-item>
+                                        <a>Hjemforsikring
+                                            <md-subheader class="md-no-sticky">DF20150-3-10.13</md-subheader>
+                                            <md-subheader class="md-no-sticky">DF20150-2-11.11</md-subheader>
+                                            <md-subheader class="md-no-sticky">DF20150-1-03.10</md-subheader>
+                                        </a>
+                                    </md-list-item>
+
+                                    <md-list-item>
+                                        <a>Familiens Basisforsikring II
+                                            <md-subheader class="md-no-sticky">DF20019-3-12.13</md-subheader>
+                                            <md-subheader class="md-no-sticky">DF20019-3-10.10</md-subheader>
+                                            <md-subheader class="md-no-sticky">DF20019-2-10.06</md-subheader>
+                                            <md-subheader class="md-no-sticky">Df20019-1-03.01</md-subheader></a>
+                                    </md-list-item>
+
+                                    <md-list-item>
+                                        <a>Elektronikforsikring
+                                            <md-subheader class="md-no-sticky">DF20119-1-11.08</md-subheader></a>
+                                    </md-list-item>
+
+                                    <md-list-item>
+                                        <a>Indboforsikring<br>
+                                            (DBGG)
+                                            <md-subheader class="md-no-sticky">10240-3-09.99</md-subheader>
+                                            <md-subheader class="md-no-sticky">10240-2-02.99</md-subheader>
+                                            <md-subheader class="md-no-sticky">10240-1</md-subheader></a>
+                                    </md-list-item>
+                                </md-list>
+                            </md-sidenav>
+                        </div>
+
                         <md-content class="md-padding">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla venenatis ante augue. Phasellus volutpat neque ac dui mattis vulputate. Etiam consequat aliquam cursus. In sodales pretium ultrices. Maecenas lectus est, sollicitudin consectetur felis nec, feugiat ultricies mi. Aliquam erat volutpat. Nam placerat, tortor in ultrices porttitor, orci enim rutrum enim, vel tempor sapien arcu a tellus. Vivamus convallis sodales ante varius gravida. Curabitur a purus vel augue ultrices ultricies id a nisl. Nullam malesuada consequat diam, a facilisis tortor volutpat et. Sed urna dolor, aliquet vitae posuere vulputate, euismod ac lorem. Sed felis risus, pulvinar at interdum quis, vehicula sed odio. Phasellus in enim venenatis, iaculis tortor eu, bibendum ante. Donec ac tellus dictum neque volutpat blandit. Praesent efficitur faucibus risus, ac auctor purus porttitor vitae. Phasellus ornare dui nec orci posuere, nec luctus mauris semper.</p>
-                            <p>Morbi viverra, ante vel aliquet tincidunt, leo dolor pharetra quam, at semper massa orci nec magna. Donec posuere nec sapien sed laoreet. Etiam cursus nunc in condimentum facilisis. Etiam in tempor tortor. Vivamus faucibus egestas enim, at convallis diam pulvinar vel. Cras ac orci eget nisi maximus cursus. Nunc urna libero, viverra sit amet nisl at, hendrerit tempor turpis. Maecenas facilisis convallis mi vel tempor. Nullam vitae nunc leo. Cras sed nisl consectetur, rhoncus sapien sit amet, tempus sapien.</p>
-                            <p>Integer turpis erat, porttitor vitae mi faucibus, laoreet interdum tellus. Curabitur posuere molestie dictum. Morbi eget congue risus, quis rhoncus quam. Suspendisse vitae hendrerit erat, at posuere mi. Cras eu fermentum nunc. Sed id ante eu orci commodo volutpat non ac est. Praesent ligula diam, congue eu enim scelerisque, finibus commodo lectus.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla venenatis ante augue. Phasellus volutpat neque ac dui mattis vulputate.<br>
+                                Etiam consequat aliquam cursus. In sodales pretium ultrices. Maecenas lectus est, sollicitudin consectetur felis nec, feugiat ultricies mi.<br>
+                                Aliquam erat volutpat. Nam placerat, tortor in ultrices porttitor, orci enim rutrum enim, vel tempor sapien arcu a tellus.<br>
+                                Vivamus convallis sodales ante varius gravida. Curabitur a purus vel augue ultrices ultricies id a nisl. Nullam malesuada consequat diam,<br>
+                                a facilisis tortor volutpat et. Sed urna dolor, aliquet vitae posuere vulputate, euismod ac lorem. Sed felis risus, pulvinar at interdum quis,<br>
+                                vehicula sed odio. Phasellus in enim venenatis, iaculis tortor eu, bibendum ante. Donec ac tellus dictum neque volutpat blandit.<br>
+                                Praesent efficitur faucibus risus, ac auctor purus porttitor vitae. Phasellus ornare dui nec orci posuere, nec luctus mauris semper.</p>
                         </md-content>
                     </md-tab>
+
                     <md-tab label="retningslinjer">
-                        <md-content class="md-padding">
-                            <p>Integer turpis erat, porttitor vitae mi faucibus, laoreet interdum tellus. Curabitur posuere molestie dictum. Morbi eget congue risus, quis rhoncus quam. Suspendisse vitae hendrerit erat, at posuere mi. Cras eu fermentum nunc. Sed id ante eu orci commodo volutpat non ac est. Praesent ligula diam, congue eu enim scelerisque, finibus commodo lectus.</p>
-                        </md-content>
+
+                        <!--Sidenav-->
+                        <div layout="row" flex>
+                            <md-sidenav layout="column" class="md-sidenav-left md-whiteframe-z2" md-component-id="left" md-no-ink md-is-locked-open="$mdMedia('gt-sm')">
+                                <md-list>
+                                    <md-list-item>
+                                        <a>Alle afdelinger
+                                            <md-subheader class="md-no-sticky">Advokatsager</md-subheader>
+                                            <md-subheader class="md-no-sticky">Bemyndigelse</md-subheader>
+                                            <md-subheader class="md-no-sticky">Hjemmearbejde</md-subheader>
+                                            <md-subheader class="md-no-sticky">Indekstal</md-subheader>
+                                        </a>
+                                    </md-list-item>
+
+                                    <md-list-item>
+                                        <a>Privatskade
+                                            <md-subheader class="md-no-sticky">Privatskade, Bygning</md-subheader>
+                                            <md-subheader class="md-no-sticky">Privatskade, Løsøre</md-subheader>
+                                            <md-subheader class="md-no-sticky">Rejse</md-subheader>
+                                            <md-subheader class="md-no-sticky">Retshjælp</md-subheader></a>
+                                    </md-list-item>
+
+                                    <md-list-item>
+                                        <a>Erhvervsskade
+                                            <md-subheader class="md-no-sticky">Erhverv/Industri</md-subheader>
+                                            <md-subheader class="md-no-sticky">Ansvarsskade</md-subheader></a>
+                                    </md-list-item>
+
+                                    <md-list-item>
+                                        <a>Landbrugsskade
+                                            <md-subheader class="md-no-sticky">Landbrugsskade</md-subheader>
+                                            <md-subheader class="md-no-sticky">Ansvarsskade</md-subheader></a>
+                                    </md-list-item>
+                                </md-list>
+                            </md-sidenav>
+                        </div>
+
+                        <div>
+                            <md-content class="md-padding">
+                                <p>Integer turpis erat, porttitor vitae mi faucibus, laoreet interdum tellus. Curabitur posuere molestie dictum. Morbi eget congue risus, quis rhoncus quam.<br>
+                                    Suspendisse vitae hendrerit erat, at posuere mi. Cras eu fermentum nunc. Sed id ante eu orci commodo volutpat non ac est.<br>
+                                    Praesent ligula diam, congue eu enim scelerisque, finibus commodo lectus.</p>
+                            </md-content>
+                        </div>
                     </md-tab>
                 </md-tabs>
             </md-content>
         </div>
     </div>
-
-
-    <!--Angular dependencies-->
-    <script src="bower_components/angular/angular.js"></script>
-    <script src="bower_components/angular-animate/angular-animate.js"></script>
-    <script src="bower_components/angular-aria/angular-aria.js"></script>
-    <script src="bower_components/angular-material/angular-material.js"></script>
-    <script src="bower_components/angular-route/angular-route.js"></script>
-    <script src="bower_components/angular-cookies/angular-cookies.js"></script>
-
-    <!-- Prism for code syntax highlighting -->
-    <script src="bower_components/prism/prism.js"></script>
-
-    <!-- Application dependencies -->
-    <script src="app.js"></script>
-    </body>
-    </html>
 </div>
 
-<!--ANDET FORSØG-->
-<!--&lt;!&ndash;Tabs&ndash;&gt;-->
-<!--<div>-->
-<!--<md-tabs md-no-ink md-border-bottom>-->
-<!--<md-content class="md-padding">-->
-<!--<md-tab label="TopDanmark">-->
 
-<!--&lt;!&ndash;Toolbar&ndash;&gt;-->
-<!--<md-content flex>-->
-<!--<md-toolbar class="md-tall md-toolbar-tools">-->
-<!--<div class="md-toolbar-tools">-->
-<!--<h2>Vilkår - TopDanmark</h2>-->
-<!--<span flex></span>-->
-<!--<md-button class="md-icon-button">-->
-<!--<i class="mdi mdi-search"></i>-->
-<!--</md-button>-->
+<!--Angular dependencies-->
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-animate/angular-animate.js"></script>
+<script src="bower_components/angular-aria/angular-aria.js"></script>
+<script src="bower_components/angular-material/angular-material.js"></script>
+<script src="bower_components/angular-route/angular-route.js"></script>
+<script src="bower_components/angular-cookies/angular-cookies.js"></script>
 
-<!--<md-button class="md-icon-button">-->
-<!--<i class="mdi mdi-dots-vertical"></i>-->
-<!--</md-button>-->
+<!-- Prism for code syntax highlighting -->
+<script src="bower_components/prism/prism.js"></script>
 
-<!--<md-button class="md-icon-button">-->
-<!--<i class="mdi mdi-settings"></i>-->
-<!--</md-button>-->
-<!--</div>-->
-<!--</md-toolbar>-->
-<!--</md-content>-->
-
-<!--&lt;!&ndash;Sidenav&ndash;&gt;-->
-<!--<div layout="row" flex>-->
-<!--<md-sidenav layout="column" class="md-sidenav-left md-whiteframe-z2" md-component-id="left" md-no-ink md-is-locked-open="$mdMedia('gt-sm')">-->
-<!--<md-list>-->
-<!--<md-list>-->
-<!--<md-list-item>-->
-<!--<a>Hjemforsikring-->
-<!--<md-subheader class="md-no-sticky">6650-4-01.14</md-subheader>-->
-<!--</a>-->
-<!--</md-list-item>-->
-
-<!--<md-list-item>-->
-<!--<a>Hjem-->
-<!--<md-subheader class="md-no-sticky">6503-2-10.06</md-subheader>-->
-<!--<md-subheader class="md-no-sticky">4789-4-10.84</md-subheader></a>-->
-<!--</md-list-item>-->
-
-<!--<md-list-item>-->
-<!--<a>Elektronikforsikring<br>-->
-<!--Policevedlæg-->
-<!--<md-subheader class="md-no-sticky">5985-1-11.08</md-subheader>-->
-<!--<md-subheader class="md-no-sticky">6503-1-11.02</md-subheader>-->
-<!--<md-subheader class="md-no-sticky">4798-5-06.98</md-subheader>-->
-<!--<md-subheader class="md-no-sticky">4789-5-BL (Bilag)</md-subheader></a>-->
-<!--</md-list-item>-->
-
-<!--<md-list-item>-->
-<!--<a>Boligforsikring, Hjem-->
-<!--<md-subheader class="md-no-sticky">6576-2-06.08</md-subheader>-->
-<!--<md-subheader class="md-no-sticky">6576-1-01.08</md-subheader>-->
-<!--<md-subheader class="md-no-sticky">6222-1-03.92</md-subheader></a>-->
-<!--</md-list-item>-->
-<!--</md-list>-->
-<!--</md-sidenav>-->
-<!--</md-content>-->
-<!--</md-list>-->
-<!--</md-sidenav>-->
-
-<!--</md-tabs>-->
-<!--</div>-->
-
-<!--<div>-->
-<!--<md-content class="md-padding">-->
-<!--<md-card>-->
-<!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla venenatis ante augue. <br>Phasellus volutpat neque ac dui mattis vulputate. Etiam consequat aliquam cursus.-->
-<!--In sodales pretium ultrices. Maecenas lectus est, sollicitudin consectetur felis nec, feugiat ultricies mi.</p>-->
-<!--</md-card>-->
-<!--</md-content>-->
-<!--</div>-->
-
-<!--</md-tab>-->
-<!--</md-content>-->
-
-<!--<md-tab label="Danske Forsikring">-->
-<!--<md-content class="md-padding">-->
-
-<!--<md-content flex>-->
-<!--<md-toolbar class="md-toolbar-tools">-->
-<!--<div class="md-toolbar-tools">-->
-<!--<h2>Vilkår - Danske Forsikring</h2>-->
-<!--<span flex></span>-->
-<!--<md-button class="md-icon-button">-->
-<!--<i class="mdi mdi-help" style="font-size: 20px;"></i>-->
-<!--</md-button>-->
-
-<!--<md-button class="md-icon-button">-->
-<!--<i class="mdi mdi-dots-vertical" style="font-size: 20px;"></i>-->
-<!--</md-button>-->
-
-<!--<md-button class="md-icon-button">-->
-<!--<i class="mdi mdi-settings" style="font-size: 20px;"></i>-->
-<!--</md-button>-->
-<!--</div>-->
-<!--</md-toolbar>-->
-<!--</md-content>-->
-
-<!--&lt;!&ndash;Sidenav&ndash;&gt;-->
-<!--<div layout="row" flex>-->
-<!--<md-sidenav layout="column" class="md-sidenav-left md-whiteframe-z2" md-component-id="left" md-no-ink md-is-locked-open="$mdMedia('gt-sm')">-->
-<!--<md-list>-->
-<!--<md-list-item>-->
-<!--<a>Hjemforsikring-->
-<!--<md-subheader class="md-no-sticky">20150-3-10.13</md-subheader>-->
-<!--<md-subheader class="md-no-sticky">20150-2-11.11</md-subheader>-->
-<!--<md-subheader class="md-no-sticky">20150-1-03.10</md-subheader></a>-->
-<!--</md-list-item>-->
-
-<!--<md-list-item>-->
-<!--<a>Familiens<br>-->
-<!--Basisforsikring II-->
-<!--<md-subheader class="md-no-sticky">20019-3-12.13</md-subheader>-->
-<!--<md-subheader class="md-no-sticky">20019-3-10.10</md-subheader>-->
-<!--<md-subheader class="md-no-sticky">20019-2-10.06</md-subheader>-->
-<!--<md-subheader class="md-no-sticky">20019-1-03.01</md-subheader></a>-->
-<!--</md-list-item>-->
-
-<!--<md-list-item>-->
-<!--<a>Elektronikforsikring-->
-<!--<md-subheader class="md-no-sticky">20119-1-11.08</md-subheader></a>-->
-<!--</md-list-item>-->
-
-<!--<md-list-item>-->
-<!--<a>Indboforsikring-->
-<!--<md-subheader class="md-no-sticky">10240-3-09.99</md-subheader>-->
-<!--<md-subheader class="md-no-sticky">10240-2-02.99</md-subheader>-->
-<!--<md-subheader class="md-no-sticky">10240-1</md-subheader>-->
-<!--<md-subheader class="md-no-sticky">10241-1, Dæk.skema.</md-subheader>-->
-<!--<md-subheader class="md-no-sticky">4789-4-10.84</md-subheader></a>-->
-<!--</md-list-item>-->
-<!--</md-list>-->
-<!--</md-sidenav>-->
-<!--</md-list>-->
-<!--</md-sidenav>-->
-<!--</div>-->
-
-<!--<div>-->
-<!--<md-content class="md-padding">-->
-<!--<md-card>-->
-<!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla venenatis ante augue. <br>Phasellus volutpat neque ac dui mattis vulputate. Etiam consequat aliquam cursus. In sodales pretium ultrices. Maecenas lectus est, sollicitudin consectetur felis nec, feugiat ultricies mi. Aliquam erat volutpat. Nam placerat, tortor in ultrices porttitor, orci enim rutrum enim, vel tempor sapien arcu a tellus. Vivamus convallis sodales ante varius gravida. Curabitur a purus vel augue ultrices ultricies id a nisl. Nullam malesuada consequat diam, a facilisis tortor volutpat et. Sed urna dolor, aliquet vitae posuere vulputate, euismod ac lorem. Sed felis risus, pulvinar at interdum quis, vehicula sed odio. Phasellus in enim venenatis, iaculis tortor eu, bibendum ante. Donec ac tellus dictum neque volutpat blandit. Praesent efficitur faucibus risus, ac auctor purus porttitor vitae. Phasellus ornare dui nec orci posuere, nec luctus mauris semper.</p>-->
-<!--<p>Morbi viverra, ante vel aliquet tincidunt, leo dolor pharetra quam, at semper massa orci nec magna. <br> Donec posuere nec sapien sed laoreet. Etiam cursus nunc in condimentum facilisis. Etiam in tempor tortor. Vivamus faucibus egestas enim, at convallis diam pulvinar vel. Cras ac orci eget nisi maximus cursus. Nunc urna libero, viverra sit amet nisl at, hendrerit tempor turpis. Maecenas facilisis convallis mi vel tempor. Nullam vitae nunc leo. Cras sed nisl consectetur, rhoncus sapien sit amet, tempus sapien.</p>-->
-<!--<p>Integer turpis erat, porttitor vitae mi faucibus, laoreet interdum tellus. Curabitur posuere molestie dictum.<br> Morbi eget congue risus, quis rhoncus quam. Suspendisse vitae hendrerit erat, at posuere mi. Cras eu fermentum nunc. Sed id ante eu orci commodo volutpat non ac est. Praesent ligula diam, congue eu enim scelerisque, finibus commodo lectus.</p>-->
-<!--</md-card>-->
-<!--</md-content>-->
-<!--</div>-->
-<!--</md-content>-->
-<!--</md-tab>-->
-
-<!--<md-tab label="Retningslinjer">-->
-<!--<md-content class="md-padding">-->
-
-<!--<md-content flex>-->
-<!--<md-toolbar class="md-toolbar-tools">-->
-<!--<div class="md-toolbar-tools">-->
-<!--<h2>Retningslinjer</h2>-->
-<!--<span flex></span>-->
-<!--<md-button class="md-icon-button">-->
-<!--<i class="mdi mdi-help" style="font-size: 20px;"></i>-->
-<!--</md-button>-->
-
-<!--<md-button class="md-icon-button">-->
-<!--<i class="mdi mdi-dots-vertical" style="font-size: 20px;"></i>-->
-<!--</md-button>-->
-
-<!--<md-button class="md-icon-button">-->
-<!--<i class="mdi mdi-settings" style="font-size: 20px;"></i>-->
-<!--</md-button>-->
-<!--</div>-->
-<!--</md-toolbar>-->
-<!--</md-content>-->
-
-<!--&lt;!&ndash;sidenav&ndash;&gt;-->
-<!--<div layout="row" flex>-->
-<!--<md-sidenav layout="column" class="md-sidenav-left md-whiteframe-z2" md-component-id="left" md-no-ink md-is-locked-open="$mdMedia('gt-sm')">-->
-<!--<md-list>-->
-<!--<md-list-item>-->
-<!--<a>Privatskade-->
-<!--<md-subheader class="md-no-sticky">Privatskade bygning</md-subheader>-->
-<!--<md-subheader class="md-no-sticky">Privatskade løsøre</md-subheader>-->
-<!--</a>-->
-<!--</md-list-item>-->
-
-<!--<md-list-item>-->
-<!--<a>Løsøreskader-->
-<!--<md-subheader class="md-no-sticky">Bagage</md-subheader>-->
-<!--<md-subheader class="md-no-sticky">Brand</md-subheader>-->
-<!--<md-subheader class="md-no-sticky">Briller</md-subheader></a>-->
-<!--</md-list-item>-->
-<!--</md-list>-->
-<!--</md-sidenav>-->
-<!--</div>-->
-
-<!--<div>-->
-<!--<md-content class="md-padding">-->
-<!--<md-card>-->
-<!--<p>Integer turpis erat, porttitor vitae mi faucibus, laoreet interdum tellus. Curabitur posuere molestie dictum. <br>Morbi eget congue risus, quis rhoncus quam. Suspendisse vitae hendrerit erat, at posuere mi. Cras eu fermentum nunc. Sed id ante eu orci commodo volutpat non ac est. Praesent ligula diam, congue eu enim scelerisque, finibus commodo lectus.</p>-->
-<!--</md-card>-->
-<!--</md-content>-->
-<!--</div>-->
-<!--</md-content>-->
-<!--</md-tab>-->
-<!--</md-tabs>-->
-<!--</div>-->
+<!-- Application dependencies -->
+<script src="app.js"></script>
+</body>
+</html>
+</div>

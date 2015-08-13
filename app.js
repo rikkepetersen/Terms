@@ -171,42 +171,6 @@ app.controller('AppCtrl', ['$scope', '$mdSidenav', '$mdToast', '$location', '$co
     };
 }]);
 
-//Chips
-(function () {
-    'use strict';
-    angular
-        .module('chipsDemo', ['ngMaterial'])
-        .controller('BasicDemoCtrl', DemoCtrl);
-    function DemoCtrl ($timeout, $q) {
-        var self = this;
-        self.readonly = false;
-        // Lists of fruit names and Vegetable objects
-        self.fruitNames = ['Apple', 'Banana', 'Orange'];
-        self.roFruitNames = angular.copy(self.fruitNames);
-        self.tags = [];
-        self.vegObjs = [
-            {
-                'name' : 'Broccoli',
-                'type' : 'Brassica'
-            },
-            {
-                'name' : 'Cabbage',
-                'type' : 'Brassica'
-            },
-            {
-                'name' : 'Carrot',
-                'type' : 'Umbelliferous'
-            }
-        ];
-        self.newVeg = function(chip) {
-            return {
-                name: chip,
-                type: 'unknown'
-            };
-        };
-    }
-})();
-//Chips stop
 
 // Whiteframes as output fields
 angular.module('whiteframeBasicUsage', ['ngMaterial']);
@@ -234,4 +198,25 @@ angular.module('buttonsDemo1', ['ngMaterial'])
 //Toolbar
 angular.module('toolbarDemo1', ['ngMaterial'])
     .controller('AppCtrl', function($scope) {
+    });
+
+//FAB-menu
+(function() {
+    'use strict';
+    angular.module('fabToolbarBasicUsageDemo', ['ngMaterial'])
+        .controller('AppCtrl', function($scope) {
+            $scope.isOpen = false;
+            $scope.demo = {
+                isOpen: false,
+                count: 0,
+                selectedAlignment: 'md-left'
+            };
+        });
+})();
+
+
+//Tooltip
+angular.module('tooltipDemo1', ['ngMaterial'])
+    .controller('AppCtrl', function($scope) {
+        $scope.demo = {};
     });
