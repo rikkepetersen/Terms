@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6682d276-62d4-4920-a594-e3c5b57eaf89" name="Default" comment="">
+    <list default="true" id="6682d276-62d4-4920-a594-e3c5b57eaf89" name="Default" comment="Text styled in css, scroll in sidenav., and too">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/hjemforsikring.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles.css" afterPath="$PROJECT_DIR$/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -31,7 +33,7 @@
         <entry file="file://$PROJECT_DIR$/styles.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="105" column="1" selection-start-line="105" selection-start-column="1" selection-end-line="105" selection-end-column="1" />
+              <caret line="57" column="27" selection-start-line="57" selection-start-column="27" selection-end-line="57" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -40,7 +42,7 @@
       <file leaf-file-name="angular-material.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bower_components/angular-material/angular-material.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.4444444">
+            <state vertical-scroll-proportion="0.0">
               <caret line="111" column="8" selection-start-line="111" selection-start-column="1" selection-end-line="111" selection-end-column="8" />
               <folding />
             </state>
@@ -51,7 +53,27 @@
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+              <caret line="124" column="3" selection-start-line="124" selection-start-column="3" selection-end-line="124" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hjemforsikring.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/hjemforsikring.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gruntfile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -70,7 +92,7 @@
       <file leaf-file-name="materialdesignicons.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bower_components/mdi/css/materialdesignicons.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.111111">
+            <state vertical-scroll-proportion="0.0">
               <caret line="4382" column="2" selection-start-line="4382" selection-start-column="1" selection-end-line="4382" selection-end-column="2" />
               <folding />
             </state>
@@ -80,13 +102,16 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.13787639">
-              <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+            <state vertical-scroll-proportion="-0.14020619">
+              <caret line="40" column="62" selection-start-line="40" selection-start-column="62" selection-end-line="40" selection-end-column="62" />
               <folding>
                 <element signature="n#style#0;n#md-input-container#0;n#div#0;n#md-toolbar#0;n#md-content#0;n#div#0;n#body#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#label#0;n#md-input-container#0;n#div#0;n#md-toolbar#0;n#md-content#0;n#div#0;n#body#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#md-icon#0;n#md-input-container#0;n#div#0;n#md-toolbar#0;n#md-content#0;n#div#0;n#body#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#md-input-container#0;n#div#0;n#md-toolbar#0;n#md-content#0;n#div#0;n#body#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#md-content#0;n#md-sidenav#0;n#div#0;n#md-tab#0;n#md-tabs#0;n#md-content#0;n#div#0;n#div#0;n#body#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#md-content#0;n#md-sidenav#0;n#div#0;n#md-tab#1;n#md-tabs#0;n#md-content#0;n#div#0;n#div#0;n#body#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#md-content#0;n#md-sidenav#0;n#div#0;n#md-tab#2;n#md-tabs#0;n#md-content#0;n#div#0;n#div#0;n#body#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -98,6 +123,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="Html5" />
       </list>
     </option>
   </component>
@@ -119,9 +145,10 @@
         <option value="$PROJECT_DIR$/node_modules/http-server/test/http-server-test.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/node_modules/bower/node_modules/cardinal/node_modules/redeyed/examples/browser/index.css" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/bower_components/mdi/css/materialdesignicons.min.css" />
         <option value="$PROJECT_DIR$/bower_components/angular-material/angular-material.css" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/views/hjemforsikring.html" />
         <option value="$PROJECT_DIR$/styles.css" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
@@ -179,8 +206,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -197,6 +222,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Termsandconditions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Termsandconditions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Termsandconditions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -234,6 +273,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -243,6 +284,7 @@
     <property name="FullScreen" value="false" />
     <property name="settings.editor.selected.configurable" value="http.proxy" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -525,7 +567,8 @@
       <workItem from="1439188480102" duration="9171000" />
       <workItem from="1439235934436" duration="328000" />
       <workItem from="1439276431192" duration="15687000" />
-      <workItem from="1439361280490" duration="22753000" />
+      <workItem from="1439361280490" duration="23961000" />
+      <workItem from="1439534022195" duration="7565000" />
     </task>
     <task id="LOCAL-00001" summary="Ready for GitHub">
       <created>1439300003782</created>
@@ -545,11 +588,17 @@
       <option name="project" value="LOCAL" />
       <updated>1439466120781</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="tryed out stuff">
+      <created>1439471159578</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1439471159578</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67992000" />
+    <option name="totallyTimeSpent" value="76765000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1928" height="1164" extended-state="6" />
@@ -557,13 +606,13 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30392158" sideWeight="0.5021299" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30332682" sideWeight="0.5042598" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30392158" sideWeight="0.4978701" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30332682" sideWeight="0.49574015" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24920128" sideWeight="0.8362745" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.1637255" order="2" side_tool="true" content_ui="tabs" />
@@ -572,14 +621,14 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298872" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -625,7 +674,8 @@
     <MESSAGE value="Ready for GitHub" />
     <MESSAGE value="From the top" />
     <MESSAGE value="Icons, searchfield and sidenav. added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Icons, searchfield and sidenav. added" />
+    <MESSAGE value="tryed out stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="tryed out stuff" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -636,13 +686,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -667,6 +710,9 @@
             <element signature="n#style#0;n#label#0;n#md-input-container#0;n#div#0;n#md-toolbar#0;n#md-content#0;n#div#0;n#body#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#md-icon#0;n#md-input-container#0;n#div#0;n#md-toolbar#0;n#md-content#0;n#div#0;n#body#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#md-input-container#0;n#div#0;n#md-toolbar#0;n#md-content#0;n#div#0;n#body#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#md-content#0;n#md-sidenav#0;n#div#0;n#md-tab#0;n#md-tabs#0;n#md-content#0;n#div#0;n#div#0;n#body#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#md-content#0;n#md-sidenav#0;n#div#0;n#md-tab#1;n#md-tabs#0;n#md-content#0;n#div#0;n#div#0;n#body#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#md-content#0;n#md-sidenav#0;n#div#0;n#md-tab#2;n#md-tabs#0;n#md-content#0;n#div#0;n#div#0;n#body#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -753,6 +799,9 @@
             <element signature="n#style#0;n#label#0;n#md-input-container#0;n#div#0;n#md-toolbar#0;n#md-content#0;n#div#0;n#body#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#md-icon#0;n#md-input-container#0;n#div#0;n#md-toolbar#0;n#md-content#0;n#div#0;n#body#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#md-input-container#0;n#div#0;n#md-toolbar#0;n#md-content#0;n#div#0;n#body#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#md-content#0;n#md-sidenav#0;n#div#0;n#md-tab#0;n#md-tabs#0;n#md-content#0;n#div#0;n#div#0;n#body#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#md-content#0;n#md-sidenav#0;n#div#0;n#md-tab#1;n#md-tabs#0;n#md-content#0;n#div#0;n#div#0;n#body#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#md-content#0;n#md-sidenav#0;n#div#0;n#md-tab#2;n#md-tabs#0;n#md-content#0;n#div#0;n#div#0;n#body#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -831,6 +880,9 @@
             <element signature="n#style#0;n#label#0;n#md-input-container#0;n#div#0;n#md-toolbar#0;n#md-content#0;n#div#0;n#body#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#md-icon#0;n#md-input-container#0;n#div#0;n#md-toolbar#0;n#md-content#0;n#div#0;n#body#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#md-input-container#0;n#div#0;n#md-toolbar#0;n#md-content#0;n#div#0;n#body#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#md-content#0;n#md-sidenav#0;n#div#0;n#md-tab#0;n#md-tabs#0;n#md-content#0;n#div#0;n#div#0;n#body#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#md-content#0;n#md-sidenav#0;n#div#0;n#md-tab#1;n#md-tabs#0;n#md-content#0;n#div#0;n#div#0;n#body#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#md-content#0;n#md-sidenav#0;n#div#0;n#md-tab#2;n#md-tabs#0;n#md-content#0;n#div#0;n#div#0;n#body#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -843,13 +895,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/http-server/bin/http-server">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="105" column="1" selection-start-line="105" selection-start-column="1" selection-end-line="105" selection-end-column="1" />
         </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/http-server/package.json">
@@ -922,13 +974,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -965,14 +1010,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bower_components/mdi/css/materialdesignicons.min.css.map">
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
+      </provider>
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bower_components/mdi/css/materialdesignicons.min.css">
@@ -983,18 +1027,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/bower_components/angular-material/angular-material.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <caret line="111" column="8" selection-start-line="111" selection-start-column="1" selection-end-line="111" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bower_components/mdi/css/materialdesignicons.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.111111">
+        <state vertical-scroll-proportion="0.0">
           <caret line="4382" column="2" selection-start-line="4382" selection-start-column="1" selection-end-line="4382" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/hjemforsikring.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -1007,10 +1067,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/angular-material/angular-material.css">
+    <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.4444444">
-          <caret line="111" column="8" selection-start-line="111" selection-start-column="1" selection-end-line="111" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="124" column="3" selection-start-line="124" selection-start-column="3" selection-end-line="124" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -1018,20 +1078,23 @@
     <entry file="file://$PROJECT_DIR$/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="105" column="1" selection-start-line="105" selection-start-column="1" selection-end-line="105" selection-end-column="1" />
+          <caret line="57" column="27" selection-start-line="57" selection-start-column="27" selection-end-line="57" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13787639">
-          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+        <state vertical-scroll-proportion="-0.14020619">
+          <caret line="40" column="62" selection-start-line="40" selection-start-column="62" selection-end-line="40" selection-end-column="62" />
           <folding>
             <element signature="n#style#0;n#md-input-container#0;n#div#0;n#md-toolbar#0;n#md-content#0;n#div#0;n#body#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#label#0;n#md-input-container#0;n#div#0;n#md-toolbar#0;n#md-content#0;n#div#0;n#body#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#md-icon#0;n#md-input-container#0;n#div#0;n#md-toolbar#0;n#md-content#0;n#div#0;n#body#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#md-input-container#0;n#div#0;n#md-toolbar#0;n#md-content#0;n#div#0;n#body#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#md-content#0;n#md-sidenav#0;n#div#0;n#md-tab#0;n#md-tabs#0;n#md-content#0;n#div#0;n#div#0;n#body#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#md-content#0;n#md-sidenav#0;n#div#0;n#md-tab#1;n#md-tabs#0;n#md-content#0;n#div#0;n#div#0;n#body#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#md-content#0;n#md-sidenav#0;n#div#0;n#md-tab#2;n#md-tabs#0;n#md-content#0;n#div#0;n#div#0;n#body#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

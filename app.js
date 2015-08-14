@@ -58,13 +58,13 @@ app.config(function($mdIconProvider) {
     $mdIconProvider.fontSet('fa', 'fontawesome');
 });
 
-//// Refactor this one out
-//app.config(function($routeProvider, $locationProvider) {
-//    $routeProvider.otherwise('/welcome');
-//    $routeProvider
-//        .when('/welcome', {
-//            templateUrl: 'views/welcome.html'
-//        })
+// Refactor this one out
+app.config(function($routeProvider, $locationProvider) {
+    $routeProvider.otherwise('/welcome');
+    $routeProvider
+        .when('/hjemforsikring', {
+            templateUrl: 'views/hjemforsikring.html'
+        });
 //        .when('/icons', {
 //            templateUrl: 'views/icons.html'
 //        })
@@ -118,11 +118,11 @@ app.config(function($mdIconProvider) {
 //        });
 //
 //
-//    $locationProvider.html5Mode({
-//        enable: true,
-//        requireBase: false
-//    });
-//});
+    $locationProvider.html5Mode({
+        enable: true,
+        requireBase: false
+    });
+});
 
 app.controller('AppCtrl', ['$scope', '$mdSidenav', '$mdToast', '$location', '$cookies', function($scope, $mdSidenav, $mdToast, $location, $cookies){
     $scope.toggleSidenav = function(menuId) {

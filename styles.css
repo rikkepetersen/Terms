@@ -20,9 +20,9 @@ h1 {
     font-size: 35px;
 }
 
-/*.md-padding {*/
-    /*width: 50%;*/
-/*}*/
+.md-padding {
+    width: 50%;
+}
 
 .md-toast-open-bottom {
     background-color: green;
@@ -103,4 +103,20 @@ h1 {
     text-decoration:none;
     border: none;
     outline: none;
+}
+
+.absolute {
+    position: absolute;
+    top: 60px;
+    right: 60px;
+    width: 1500px;
+    height: 800px;
+}
+
+.current {
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
 }
