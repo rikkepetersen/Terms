@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+
+        </style>
+        <link rel="stylesheet" href="assets/style.css" />
+        <link rel="stylesheet" href="assets/colorbox/colorbox.css" />
+        <script src="assets/jquery-1.8.3.min.js"></script>
+        <script src="assets/colorbox/jquery.colorbox-min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $('.list-icon-new-hot').attr('title', 'Major Feature');
+                $('.list-icon-new').attr('title', 'Feature');
+                $('.list-icon-bug').attr('title', 'Bug Fix');
+                $(".project .section:not(:first)").hide();
+                $(".project h4").click(function() {
+                    $(this).next(".section").slideToggle();
+                });
+            });
+        </script>
+        <style>
+            h4 {
+                text-decoration: underline;
+                cursor: pointer;
+            }
+            .project {
+                min-height: initial;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="header">
+            <div class="wrapper" style="text-align:center">
+                <h1>PDFTron WebViewer</h1>    
+            </div>
+        </div>
+        <div class="sub-header">
+            <ul class="menu" >
+                <li><a href="index.html">Overview</a></li>
+                <li><a href="whatsnew.html" class="active">What's New</a></li>
+                <li><a href="documentation.html">Documentation</a></li>
+                <li><a href="samples.html">Samples</a></li>
+                <li><a href="tutorials.html">Tutorials</a></li>
+            </ul>
+        </div>
+        <div id="content">
+            <div class="wrapper">
+                <h2>What's new</h2>
+                <div class="project">
+                    <h3>Version 2.0</h3>
+                    <h4>April 20, 2015 version 2.0.0</h4>
+                    <div class="section">
+                        <b>Upgrade Notes</b>
+                        <ul>
+                            <li><b>Breaking Change:</b> To better match existing JavaScript style guidelines, all API functions now start with a lowercase letter.</li>
+                        </ul>
+
+                        <b>WebViewer HTML5 Updates</b>
+                        <ul>
+                            <li class="list-icon-new-hot">Added support for viewing PDF documents directly without converting to XOD! Learn more in the <a href="tutorials/getting-started.html">getting started tutorial</a>.</li>
+                            <li class="list-icon-new-hot">New versions of PDFNet, DocPub and PWS will create smaller XOD files because of optimizations in the text representation</li>
+                            <li class="list-icon-new-hot">Added a new panel to display annotation notes and replies relative to their page position. The panel also allows searching through notes and ordering by time.</li>
+                            <li class="list-icon-new-hot">Added an advanced annotation editing menu that appears above the annotation when clicking on it</li>
+                            <li class="list-icon-new-hot">Added a customizable signature tool</li>
+                            <li class="list-icon-new-hot">Annotations can now be selected by tapping on them from any tool (except ones that use tapping e.g. Polygon)</li>
+                            <li class="list-icon-new">Removed the annotation panel from the left side and moved the annotation tools to the top toolbar</li>
+                            <li class="list-icon-new">Each annotation tool now has their own default properties. When an annotation is edited this automatically changes the default properties of the corresponding annotation tool</li>
+                            <li class="list-icon-new">Added proper support for displaying documents with blend modes</li>
+                            <li class="list-icon-new">Added support for the Hidden flag on annotations and added functions to hide and show annotations</li>
+                            <li class="list-icon-new">Added support for column selection with all text tools when holding down the alt key while selecting text</li>
+                            <li class="list-icon-new">Added support for viewport rendering of page canvases when zoomed in to a certain level. This allows for much better performance and quality and viewing large XOD documents (e.g. CAD files)</li>
+                            <li class="list-icon-new">Added support for new browser font loading API</li>
+                            <li class="list-icon-new">Added support for rotation property on widgets, this includes rotating the widgets when pages are rotated</li>
+                            <li class="list-icon-new">Added support for button widgets to have an automatically calculated font size</li>
+                            <li class="list-icon-new">Added <a href="lib/html5/doc/symbols/CoreControls.DocumentViewer.html#setInternalAnnotationsTransform">DocumentViewer.setInternalAnnotationsTransform</a> to allow the internal annotations to be transformed or replaced much more easily</li>
+                            <li class="list-icon-new">Added a right-click menu to allow quick switching between annotation tools</li>
+                            <li class="list-icon-new">Added a Text Squiggly annotation tool</li>
+                            <li class="list-icon-new">Added an Arrow annotation tool</li>
+                            <li class="list-icon-new">Added support for changing a FreeText annotation's text color and font size</li>
+                            <li class="list-icon-new">Added support for the shift + enter shortcut to search backwards</li>
+                            <li class="list-icon-new">Allow setting of the <a href="lib/html5/doc/symbols/CoreControls.DocumentViewer.html#defaults">default fit mode, display mode and zoom level</a> for DocumentViewer</li>
+                            <li class="list-icon-new">Page rendering now always takes priority over thumbnail rendering from the thumbnail panel</li>
+                            <li class="list-icon-new">Added support for auto font size for FreeText annotations</li>
+                            <li class="list-icon-new">Updated Document.loadThumbnailAsync to return an id which can be cancelled with cancelLoadThumbnail</li>
+                            <li class="list-icon-new">Modified ReaderControl so that it keeps only one instance of each tool and Get/SetToolMode should take an instance instead of a type</li>
+                            <li class="list-icon-new">Improved text annotation word wrapping to handle wrapping of long words that span more than one line</li>
+                            <li class="list-icon-new">Added the <a href="lib/html5/doc/symbols/CoreControls.DocumentViewer.html#event:beforeDocumentLoaded">beforeDocumentLoaded</a> event to DocumentViewer that occurs before the document data has been initialized in the viewer</li>
+                            <li class="list-icon-new">Upgraded to jQuery UI 1.11.1</li>
+                            <li class="list-icon-new">Added a gulpfile that can be run to optionally optimize the WebViewer assets</li>
+                            <li class="list-icon-new">Documents loaded from blob urls through WebViewer.js are now supported</li>
+                            <li class="list-icon-new">Changed the up and down arrow keys to scroll through the document instead of change pages, unless at the end of a page</li>
+                            <li class="list-icon-new">Modified ReaderControl and MobileReaderControl to inherit from a BaseReaderControl</li>
+                            <li class="list-icon-new">Modified ReaderControl's loadDocument function to take an options object as the second parameter</li>
+                            <li class="list-icon-new">The full text search box is now focused automatically when switching to the search tab</li>
+                            <li class="list-icon-new">Free Hand annotations are not simplified by default when drawing with a stylus</li>
+                            <li class="list-icon-new">Updated FreeText annotations to increase their stroke size inwards</li>
+                            <li class="list-icon-new">The FreeText textarea is now automatically selected after creating the annotation</li>
+                            <li class="list-icon-new">More precise selection is now used for line annotations, even when selected</li>
+                            <li class="list-icon-new">More precise selection is now used for callout annotations</li>
+                            <li class="list-icon-new">If there is an error deserializing an annotation then annotation parsing won't fail for the rest of the XFDF</li>
+                            <li class="list-icon-new">Added an <a href="doc/symbols/PDFTron.WebViewer.Options.html#externalPath">externalPath</a> option to Webviewer.js to load unpacked XOD files</li>
+                            <li class="list-icon-bug">Fixed issue where annotations exported from WebViewer and merged into a PDF would not be displayed when printing the PDF</li>
+                            <li class="list-icon-bug">Fixed issue where nested field values weren't exported correctly</li>
+                            <li class="list-icon-bug">Fixed issue where text selected on multiple pages wouldn't be copied correctly</li>
+                            <li class="list-icon-bug">Fixed issue when attempting to create a FreeText annotation in an invalid location</li>
+                            <li class="list-icon-bug">Fixed issue where the quads of a text annotation could be set to an empty array</li>
+                            <li class="list-icon-bug">The annotationFiltered event now passes the annotations as an array instead of individually</li>
+                            <li class="list-icon-bug">Fixed issue with displaying dashed lines with a very small dash size</li>
+                        </ul>
+
+                        <b>WebViewer Mobile Updates</b>
+                        <ul>
+                            <li class="list-icon-new-hot">Added an advanced annotation editing menu to change all annotation properties and allows the selection of many more colors</li>
+                            <li class="list-icon-new">Added a quick menu for creating annotations when performing a taphold on a page</li>
+                            <li class="list-icon-new">Upgraded to jQuery Mobile 1.4.4</li>
+                            <li class="list-icon-new">Added workaround for IE to avoid adding duplicate Free Hand annotation points</li>
+                            <li class="list-icon-new">Removed the MobileStickyCreateTool, the StickyCreateTool is now used on mobile devices</li>
+                            <li class="list-icon-new">Added workaround for submitting page numbers in Android</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <h3>Version 1.8</h3>
+                    <h4>April 20, 2015 version 1.8.2</h4>
+                    <div class="section">
+                        <b>WebViewer HTML5 Updates</b>
+                        <ul>
+                            <li class="list-icon-new">Added support for custom image data for stamp annotations and signature widgets</li>
+                            <li class="list-icon-new">Added an <a href="lib/html5/doc/symbols/PartRetrievers.AzurePartRetriever.html">AzurePartRetriever</a> that works around an issue loading XOD files on an Azure server</li>
+                            <li class="list-icon-new">When changing the zoom level the vertical scroll position is now maintained</li>
+                            <li class="list-icon-new">Added support for fullscreen mode in IE11 (worked around IE11 bug)</li>
+                            <li class="list-icon-new">If a text field does not specify a font size then it should default to auto sizing</li>
+                            <li class="list-icon-bug">Added a workaround for an iOS 8 bug with offline databases in a UIWebView</li>
+                            <li class="list-icon-bug">Fixed an issue where annotations were not being flagged as modified when the InReplyTo property changed</li>
+                            <li class="list-icon-bug">Fixed an issue where FreeText annotations with thickness zero weren't rendered correctly</li>
+                            <li class="list-icon-bug">Fixed an issue where widgets were duplicated on the first load of the document</li>
+                            <li class="list-icon-bug">Widget field values are now escaped when saving to XFDF</li>
+                            <li class="list-icon-bug">Fixed an issue where if a GoTo form action points to an invalid page number there would be an error</li>
+                            <li class="list-icon-bug">Fixed an issue where the defaultstyle element was not parsed correctly if there was a trailing semicolon</li>
+                            <li class="list-icon-bug">Fixed an issue where multiline selections were not copied with the new line characters</li>
+                            <li class="list-icon-bug">Fixed an issue where all combo box widgets were editable even if they didn't have the editable flag</li>
+                            <li class="list-icon-bug">Fixed an issue when editing FreeText annotations when default sticky notes are disabled</li>
+                            <li class="list-icon-bug">Fixed an issue with widgets that had names with spaces or special characters</li>
+                        </ul>
+
+                        <b>WebViewer Mobile Updates</b>
+                        <ul>
+                            <li class="list-icon-bug">Fixed an issue where the viewer could get into an infinite loop when tapping on one page and then attempting to draw a FreeHand annotation on the other page</li>
+                        </ul>
+                    </div>
+
+                    <h4>November 26, 2014 version 1.8.1</h4>
+                    <div class="section">
+                        <b>WebViewer HTML5 Updates</b>
+                        <ul>
+                            <li class="list-icon-new">Added support for importing/exporting text name, size, color and alignment for FreeText annotations</li>
+                            <li class="list-icon-new">Added a rectangular mode for text tools that can be enabled by setting <a href="lib/html5/doc/symbols/Tools.TextTool.html#SELECTION_MODE">Tools.TextTool.SELECTION_MODE</a></li>
+                            <li class="list-icon-new">Added <a href="lib/html5/doc/symbols/CoreControls.html#.SetAdvancedImageScaling">CoreControls.SetAdvancedImageScaling</a> function which enables higher quality downsampling of images at the cost of some performance</li>
+                            <li class="list-icon-new">Improved the FreeText annotation word wrapping so that it wraps long words onto multiple lines</li>
+                            <li class="list-icon-new">Allow setting a default fit mode, display mode and zoom level before loading a document using <a href="lib/html5/doc/symbols/CoreControls.DocumentViewer.html#defaults">DocumentViewer.defaults</a></li>
+                            <li class="list-icon-new">Updated ellipse and rectangle annotations to increase their stroke size inward</li>
+                            <li class="list-icon-new">Updated support for displaying accepted (checkmark) and rejected (cross) stamps</li>
+                            <li class="list-icon-bug">Fixed issue with loading large documents in native Android apps</li>
+                            <li class="list-icon-bug">Fixed issue where timezones that weren't aligned to the hour were not saving dates correctly in XFDF</li>
+                            <li class="list-icon-bug">Fixed issue with the annotation modified date being saved incorrectly</li>
+                            <li class="list-icon-bug">Fixed issue where FreeText annotations could be edited without the proper permission</li>
+                            <li class="list-icon-bug">Fixed issue where the multi-select annotation tool wasn't drawn correctly when the page was rotated</li>
+                            <li class="list-icon-bug">Fixed issues when loading multiple documents quickly in succession</li>
+                            <li class="list-icon-bug">Fixed memory leaks with annotations when loading multiple documents</li>
+                            <li class="list-icon-bug">Fixed issue where links didn't work after loading a new document</li>
+                            <li class="list-icon-bug">Fixed issue when loading a new document while the current document is rendering a page</li>
+                            <li class="list-icon-bug">Fixed where ctrl-clicking and dragging an annotation would cause errors</li>
+                            <li class="list-icon-bug">Correctly exposed the <a href="lib/html5/doc/symbols/CoreControls.AnnotationManager.html#GetAnnotationCopy">GetAnnotationCopy</a> function</li>
+                            <li class="list-icon-bug">Fixed issue where importing a callout annotation that was exported from Adobe would fail</li>
+                        </ul>
+
+                        <b>WebViewer Mobile Updates</b>
+                        <ul>
+                            <li class="list-icon-new">Added support for double click in Internet Explorer</li>
+                            <li class="list-icon-bug">Fixed issue setting the annotation server URL</li>
+                            <li class="list-icon-bug">Fixed issue using getAnnotationByMouseEvent in a mouseLeftUp handler</li>
+                            <li class="list-icon-bug">Fixed issue with loading multiple documents where links would no longer be clickable</li>
+                        </ul>
+                    </div>
+
+                    <h4>August 18, 2014 version 1.8.0</h4>
+                    <div class="section">
+                        <b>Upgrade Notes</b>
+                        <ul>
+                            <li><b>Breaking Change:</b> The <a href="lib/html5/doc/symbols/CoreControls.AnnotationManager.html#event:annotationChanged">annotationChanged</a> event now passes an array of annotations instead of a single annotation.</li>
+                            <li><b>Breaking Change:</b> <a href="lib/html5/doc/symbols/CoreControls.DocumentViewer.html#GetToolMode">DocumentViewer.GetToolMode</a> now returns the current tool mode instead of the instance of the current tool mode. Comparisons no longer have to be made with instanceof.</li>
+                        </ul>
+
+                        <b>WebViewer HTML5 Updates</b>
+                        <ul>
+                            <li class="list-icon-new-hot">Added a combined pan and edit tool. This replaces the pan tool as the default tool and allows selection of annotations without using the annotation edit tool.</li>
+                            <li class="list-icon-new-hot">Added support for annotation replies. Any annotation note can now be replied to, allowing for a tree of replies.</li>
+                            <li class="list-icon-new-hot">Added support for printing annotations when using the print button</li>
+                            <li class="list-icon-new-hot">Added FreeText annotation tool</li>
+                            <li class="list-icon-new-hot">Added support for multipath free hand annotations</li>
+                            <li class="list-icon-new-hot">Updated the default styling of the user interface</li>
+                            <li class="list-icon-new-hot">Added support for <a href="tutorials/02.html">specifying xdomain proxy URLs</a> to support cross domain requests in IE9</li>
+                            <li class="list-icon-new">Added <a href="lib/html5/doc/symbols/CoreControls.AnnotationManager.html#ImportAnnotationsAsync">AnnotationManager.ImportAnnotationsAsync</a> that loads annotations asynchronously. This is now used by default in the ReaderControls.
+                            <li class="list-icon-new">Added option to <a href="lib/html5/doc/symbols/CoreControls.AnnotationManager.html#ExportAnnotations">AnnotationManager.ExportAnnotations</a> to disable the exporting of links or widgets</li>
+                            <li class="list-icon-new">Added support for automatically selecting a word when double-clicking with the text selection tool</li>
+                            <li class="list-icon-new">Added support for rotating a single page by passing the page number to the DocumentViewer rotation functions</li>
+                            <li class="list-icon-new">Added support for displaying annotation opacity</li>
+                            <li class="list-icon-new">The popup note now appears automatically after adding a text strikeout annotation</li>
+                            <li class="list-icon-new">Added <a href="lib/html5/doc/symbols/CoreControls.Document.html#UnloadCanvasResources">Document.UnloadCanvasResources</a></li>
+                            <li class="list-icon-new">Increased the maximum stroke thickness that can be set in the UI</li>
+                            <li class="list-icon-new">Changed the default annotation fill color to be transparent</li>
+                            <li class="list-icon-new">Annotations shown in the side panel are ordered by page number</li>
+                            <li class="list-icon-new">Added <a href="lib/html5/doc/symbols/CoreControls.DocumentViewer.html#DrawSelection">DocumentViewer.DrawSelection</a> to manually trigger drawing of selected text</li>
+                            <li class="list-icon-new">FreeHand annotation points are now simplified after being created to produce smoother curves</li>
+                            <li class="list-icon-new">Allow changing of the color of sticky note annotations</li>
+                            <li class="list-icon-new">Added support for displaying the arrow head and tail of line annotations</li>
+                            <li class="list-icon-new">Added support for saving a document offline when the StreamingPartRetriever is used</li>
+                            <li class="list-icon-new">Added support for displaying a stroke thickness of zero</li>
+                            <li class="list-icon-new">Added control handles to text annotations so that they can be resized</li>
+                            <li class="list-icon-new">Added extra parameter to annotations' serialize function that specifies whether it is being serialized as part of an ExportAnnotations call or not</li>
+                            <li class="list-icon-new">A warning is now shown in the console if WebViewer automatically falls back to streaming mode</li>
+                            <li class="list-icon-new">AnnotationManager.ImportAnnotations now updates existing annotations with the same Id instead of adding a new annotation</li>
+                            <li class="list-icon-new">An error event is triggered on a part retriever loading error</li>
+                            <li class="list-icon-new">The viewer can now be loaded even if an initialDoc isn't specified</li>
+                            <li class="list-icon-new">The annotation tools are no longer shown in readonly mode</li>
+                            <li class="list-icon-new">Annotation properties for a selected annotation are only shown if they are able to be modified</li>
+                            <li class="list-icon-new">Added an optional parameter to <a href="doc/symbols/PDFTron.WebViewer.html#loadDocument">WebViewer.loadDocument</a> that allows you to specify the documentId</li>
+                            <li class="list-icon-new">Improved detection of fonts and colors for text field widgets</li>
+                            <li class="list-icon-new">Thumbnail view loading optimizations to improve performance on large files</li>
+                            <li class="list-icon-new">Added <a href="lib/html5/doc/symbols/CoreControls.DocumentViewer.html#UpdateLinks">DocumentViewer.UpdateLinks</a> function</li>
+                            <li class="list-icon-new">Upgraded to jQuery 2.1</li>
+                            <li class="list-icon-new">Added fullscreen support for IE11</li>
+                            <li class="list-icon-new">Added <a href="lib/html5/doc/symbols/CoreControls.AnnotationManager.html#getAnnotationByMouseEvent">AnnotationManager.getAnnotationByMouseEvent</a> function</li>
+                            <li class="list-icon-new">Added the InReplyTo property on sticky note annotations that specifies the Id of the annotation they are replying to</li>
+                            <li class="list-icon-bug">Fixed issue with <a href="doc/symbols/PDFTron.WebViewer.html#searchText">WebViewer.searchText</a> when passing searchModes as a comma separated string</li>
+                            <li class="list-icon-bug">Increased the default padding added to the rect of annotations so that they won't be clipped when loaded in other viewers</li>
+                            <li class="list-icon-bug">Fixed the order that the rect XFDF attribute exports its values in</li>
+                            <li class="list-icon-bug">Fixed the XFDF output for FreeText fill and stroke colors</li>
+                            <li class="list-icon-bug">Fixed the fringe XFDF output for FreeText annotations as it was being incorrectly transformed</li>
+                            <li class="list-icon-bug">Fixed the display of the unsupported browser message</li>
+                            <li class="list-icon-bug">Fixed stroke thickness rendering issue on pattern</li>
+                            <li class="list-icon-bug">Fixed duplicate "did" query parameter when loading annotations</li>
+                            <li class="list-icon-bug">Fixed the positioning of radio button widgets when zoomed out</li>
+                        </ul>
+
+                        <b>WebViewer Mobile Updates</b>
+                        <ul>
+                            <li class="list-icon-new-hot">Added a new panel that lists annotations and allows note editing</li>
+                            <li class="list-icon-new">Added toolModeChanged event</li>
+                            <li class="list-icon-new">Added get/setToolMode functions</li>
+                            <li class="list-icon-new">Moved the page number indicator to the bottom left corner and allow editing of the page number from a popup</li>
+                            <li class="list-icon-new">Increased the size of the page slider</li>
+                            <li class="list-icon-new">Upgraded to jQuery mobile 1.4.2</li>
+                            <li class="list-icon-new">The mobile part retrievers now support encryption</li>
+                            <li class="list-icon-new">Added a high-resolution option on the options panel to toggle between high quality rendering</li>
+                            <li class="list-icon-bug">To fix display issues, pinch zooming is disabled while scrolling pages</li>
+                            <li class="list-icon-bug">Fixed issue with Android native sample in 4.4</li>
+                            <li class="list-icon-bug">Fixed issue with the setReadOnly and isReadOnly functions</li>
+                            <li class="list-icon-bug">annotationChanged event is now triggered when note text is changed</li>
+                            <li class="list-icon-bug">Fix for Windows Phone devices so that pages are rendered at high quality</li>
+                        </ul>
+
+                        <b>WebViewer Flash Updates</b>
+                        <ul>
+                            <li class="list-icon-new">Updated to work when loading with require.js</li>
+                            <li class="list-icon-bug">Fixes for issues running in IE11</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <h3>Version 1.7</h3>
+                    <h4>March 24, 2014 version 1.7.1</h4>
+                    <div class="section">
+                        <b>WebViewer HTML5 Updates</b>
+                        <ul>
+                            <li class="list-icon-new">Added polyfill for Document.createAttributeNS and Element.setAttributeNodeNS as Chrome 34 seems to be dropping support</li>
+                            <li class="list-icon-new">Added the overridable function Annotations.SelectionModel.prototype.drawPopupTail to customize the popup tail appearance</li>
+                            <li class="list-icon-bug">Fixed issue where email links without "mailto:" weren't working</li>
+                            <li class="list-icon-bug">Fixed issue where the default sticky note color wasn't yellow</li>
+                            <li class="list-icon-bug">Fixed issue where extra unnecessary attributes were being added to some XFDF elements in some browsers</li>
+                            <li class="list-icon-bug">Fix so that the casing of XFDF elements is preserved</li>
+                            <li class="list-icon-bug">Fixed issue that occurred when no fields were specified in the reset form action</li>
+                        </ul>
+                    </div>
+
+                    <h4>December 23, 2013 version 1.7.0</h4>
+                    <div class="section">
+                        <b>Upgrade Notes</b>
+                        <ul>
+                            <li><b>Breaking change: </b> All of the Set...Callback functions (e.g. SetPageCompletedCallback) on DocumentViewer and AnnotationManager have been replaced with events.
+                                So instead of docViewer.SetPageCompletedCallback(func(param1, param2)) change to docViewer.on('pageCompleted', func(event, param1, param2)).
+                                See the list of events under the event summary on <a href="lib/html5/doc/symbols/CoreControls.DocumentViewer.html">DocumentViewer</a> and 
+                                <a href="lib/html5/doc/symbols/CoreControls.AnnotationManager.html">AnnotationManager</a>.</li>
+                            <li><b>Breaking change: </b> Tool names have been updated to be more consistent.  For example, instead of using docViewer.ToolModes.TextSelect use 
+                                window.Tools.TextSelectTool.  See the <a href="lib/html5/doc/index.html">HTML5 documentation</a> for more details.</li>
+                            <li><b>Breaking change: </b>Highlight annotations now have a stroke color instead of a fill color.</li>
+                            <li>AnnotationManager.LoadAnnotations has been deprecated and should be replaced with the ImportAnnotations function.</li>
+                            <li>Textareas now update on the change event instead of the blur event to be consistent with other widgets.</li>
+                            <li>Transparent stroke colors are no longer selectable for annotations.</li>
+                        </ul>
+
+                        <b>WebViewer Universal Viewer</b>
+                        <ul>
+                            <li class="list-icon-new-hot">Introduced a new full-featured viewer that uses single unified HTML GUI interface for all three document rendering engines (HTML5, Silverlight and Flash). <br/>
+                                See a sample here: <a href="samples/universal" target="_blank">WebViewer Universal Sample</a></li>
+                        </ul>
+
+
+                        <b>WebViewer HTML5 Updates</b>
+                        <ul>
+                            <li class="list-icon-new-hot">Added support for new annotation types: FreeText, Callout, Caret, Stamps, Polyline and Polygon</li>
+                            <li class="list-icon-new-hot">Added new annotation creation tools for: Callout, Polyline and Polygon</li>
+                            <li class="list-icon-new-hot">Overhauled annotation (de)serialization, allows easier saving and loading of custom annotations</li>
+                            <li class="list-icon-new">Added printing support</li>
+                            <li class="list-icon-new">Added support for customizing annotation selection algorithms</li>
+                            <li class="list-icon-new">Added support for zooming with new shortcuts ctrl+/ctrl-, ctrl + scroll or alt + scroll (Chrome doesn't support ctrl + scroll)</li>
+                            <li class="list-icon-new">Added canvas-based hit testing for improved annotation selection</li>
+                            <li class="list-icon-new">Pages that have been preloaded are now placed in the document earlier so that there is no white flash as the page is scrolled into view</li>
+                            <li class="list-icon-new">Improved the quality of the page shown when changing zoom levels</li>
+                            <li class="list-icon-new">Improved font loading so that it's more reliable</li>
+                            <li class="list-icon-new">Updates to display modes to make them more customizable</li>
+                            <li class="list-icon-new">Updated the side panel so that it behaves like the Silverlight viewer; either completely open or completely closed</li>
+                            <li class="list-icon-new">Added CoreControls.SetWorkerPath, a function to set the WebWorker path</li>
+                            <li class="list-icon-new">Added PartRetriever.SetErrorCallback to be notified when there is a part retriever error</li>
+                            <li class="list-icon-new">Added PartRetriever.SetCustomHeaders to add any custom headers to the XOD part requests</li>
+                            <li class="list-icon-new">Added Document.CancelThumbnailRequest to allow cancelling of thumbnails; thumbnail requests are now cancelled as necessary to improve performance</li>
+                            <li class="list-icon-new">Added Document.GetPDFCoordinates to convert XOD coordinates to PDF coordinates</li>
+                            <li class="list-icon-new">Added Document.GetTextPosition which returns location information for individual characters</li>
+                            <li class="list-icon-new">Added support for form fields with auto text size</li>
+                            <li class="list-icon-new">Added a rendering optimization for patterns with unnecessarily large sizes</li>
+                            <li class="list-icon-new">Added AnnotationManager.ImportAnnotCommand to update annotations based on the output from the GetAnnotCommand function</li>
+                            <li class="list-icon-new">Added AnnotationManager.DrawAnnotationsFromList which updates only the pages that annotations in the list belong to</li>
+                            <li class="list-icon-new">Added support for free hand annotations with multiple paths</li>
+                            <li class="list-icon-new">Added new cursors that are shown in different situations</li>
+                            <li class="list-icon-new">Added support for bookmarks to external URLs</li>
+                            <li class="list-icon-new">Allow resizing of individual annotations while multi-selected</li>
+                            <li class="list-icon-bug">Fixed performance issue that occurred when selecting many annotations</li>
+                            <li class="list-icon-bug">Fixed issue where widget field values weren't being encoded</li>
+                            <li class="list-icon-bug">Fixed issue that occurs when the widget type isn't supported</li>
+                            <li class="list-icon-bug">Fixed rendering issue related to resource dictionaries</li>
+                            <li class="list-icon-bug">Fixed memory leak when clearing search results</li>
+                            <li class="list-icon-bug">Fixed issues with cancelling part loading</li>
+                            <li class="list-icon-bug">The hidden flag on widgets is now properly respected</li>
+                            <li class="list-icon-bug">Fixed issue when window.devicePixelRatio is less than 1</li>
+                            <li class="list-icon-bug">Fixed issue with loading popup note text generated by other viewers</li>
+                            <li class="list-icon-bug">Fixed issue with "whole word only" searching where some results wouldn't be found</li>
+                            <li class="list-icon-bug">Fixed issue with a search being cancelled when the page or display mode is changed</li>
+                        </ul>
+
+                        <b>WebViewer Mobile Updates</b>
+                        <ul>
+                            <li class="list-icon-new">Added an options panel that displays various options for the viewer</li>
+                            <li class="list-icon-new">Added an option to set the landscape display mode to single or double page</li>
+                            <li class="list-icon-new">The toolbar is now hidden initially by default</li>
+                            <li class="list-icon-new">IE11 is now supported</li>
+                            <li class="list-icon-bug">Fixed issue in some Android browser versions that had trouble with negative transforms</li>
+                            <li class="list-icon-bug">Fixed iOS7 issue caused by the window height changing slightly after loading the document</li>
+                            <li class="list-icon-bug">Fixed iOS7 issue where the reported height in landscape mode is incorrect</li>
+                            <li class="list-icon-bug">Fixed iOS7 issue that occurred when "cookies and other website data" are blocked</li>
+                            <li class="list-icon-bug">Fixed issue with non-ASCII characters</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="project">
+                    <h3>Version 1.6</h3>
+                    <h4>October 8, 2013 version 1.6.1</h4>
+                    <div class="section">
+                        <b>WebViewer HTML5 Updates</b>
+                        <ul>
+                            <li class="list-icon-bug">Fixed an issue on Firefox where document locations had to be URL encoded</li>
+                            <li class="list-icon-bug">Fixed an issue on IE9 where cross domain document URLs were incorrectly detected as supported by the HTML5 engine</li>
+                        </ul>
+                        <b>WebViewer Silverlight Updates</b>
+                        <ul>
+                            <li class="list-icon-bug">Fixed an issue on IE8 where an "Unhandled Error in Silverlight..." was thrown when a document is loaded</li>
+                        </ul>
+                    </div>
+
+                    <h4>September 11, 2013 version 1.6.0</h4>
+                    <div class="section">
+                        <b>Upgrade Notes</b>
+                        <ul>
+                            <li>If using the HTML5 ReaderControl directly then please note that the document parameters are now placed after the hash (#) instead
+                                of being part of the query string (?) by default.  For the previous behavior you can pass false to ControlUtils.getQueryStringMap().</li>
+                            <li>The English translation file has been updated with three new translations for saving annotations (savingAnnotations, saveSuccess, saveError).</li>
+                            <li>AnnotationManager.SaveAnnotations() has been deprecated and should now be replaced with ExportAnnotations.</li>
+                        </ul>
+
+                        <b>WebViewer HTML5 Updates</b>
+                        <ul>
+                            <li class="list-icon-new-hot">Added an offline library sample demonstrating how to load and view multiple documents in a completely offline scenario</li>
+                            <li class="list-icon-new">Added a sample showing how to create a basic accessible viewer</li>
+                            <li class="list-icon-new">Added a sample showing how to integrate WebViewer with the deck.js library</li>
+                            <li class="list-icon-new">Added Document.LoadPageText() to get all of the text from a page</li>
+                            <li class="list-icon-new">The language to use can now be auto-detected by passing in true to ControlUtils.getI18nOptions()</li>
+                            <li class="list-icon-new">Added startOffline parameter to WebViewer to specify that it should load the document from the offline database</li>
+                            <li class="list-icon-new">Documents can now be passed an id that is used to uniquely identify them for offline mode</li>
+                            <li class="list-icon-new">Added default messages for when annotations are being saved</li>
+                            <li class="list-icon-new">Added DocumentViewer.ScrollViewUpdated() to handle custom resizing of the viewer</li>
+                            <li class="list-icon-new">Added support for Named and GoTo form actions</li>
+                            <li class="list-icon-new">The control key is no longer required to be pressed when using the arrow keys to navigate between pages</li>
+                            <li class="list-icon-bug">Fixed issues and memory leaks related to calling WebViewer.loadDocument() multiple times</li>
+                            <li class="list-icon-bug">Fixed drawing issue with certain gradients</li>
+                            <li class="list-icon-bug">Fixed issue that occasionally occurred with annotation loading</li>
+                            <li class="list-icon-bug">Fixed issue in Internet Explorer where pressing enter in the zoom box had no effect</li>
+                            <li class="list-icon-bug">Fixed issue with form objects in the same location on different pages sometimes not being added to the page</li>
+                            <li class="list-icon-bug">Fixed form button positioning when zoomed out</li>
+                            <li class="list-icon-bug">Fixed an issue with encrypted documents where pages would sometimes fail to render</li>
+                            <li class="list-icon-bug">Fixed issue in Internet Explorer with scrolling between pages in non-continuous modes</li>
+                            <li class="list-icon-bug">Fixed issue where a document with a large embedded xfdf could cause the first page not to render</li>
+                        </ul>
+
+                        <b>WebViewer Mobile Updates</b>
+                        <ul>
+                            <li class="list-icon-new-hot">Added a sample showing how to integrate WebViewer in an iOS app</li>
+                            <li class="list-icon-new-hot">Added a sample showing how to integrate WebViewer in a WinRT app</li>
+                            <li class="list-icon-new">Added mobileRedirect parameter to WebViewer to allow disabling of the default redirect for the mobile viewer</li>
+                            <li class="list-icon-new">Upgraded to jQuery mobile 1.3.2</li>
+                            <li class="list-icon-bug">Fixed an issue in the default Android browser where annotations would not be visible when zoomed in</li>
+                            <li class="list-icon-bug">Fixed issue in newer versions of the Android browser where occasionally single characters were not drawn</li>
+                            <li class="list-icon-bug">Added workaround for issue in IE10 where pages would sometimes be offset when swiping</li>
+                        </ul>
+
+                        <b>WebViewer Flash Updates</b>
+                        <ul>
+                            <li class="list-icon-new">Added a full screen button to the toolbar</li>
+                        </ul>
+
+                        <b>WebViewer Silverlight Updates</b>
+                        <ul>
+                            <li class="list-icon-bug">Fixed issue with saving annotations when the local culture isn't the same as the invariant culture</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <h3>Version 1.5</h3>
+                    <h4>June 26, 2013 version 1.5.0</h4>
+                    <div class="section">
+                        <b>Upgrade Notes</b>
+                        <ul>
+                            <li>HTML5 ReaderControl functions have been modified to be more consistent with the WebViewer function naming scheme. This may affect
+                                anyone that has made customizations to the HTML5 ReaderControls directly or through config files.</li>
+                            <li>Please refer to html5/WebViewerInterface.js for the function names and review your customizations to make sure that they are using
+                                the new naming scheme.</li>
+                        </ul>
+
+                        <b>WebViewer HTML5 Updates</b>
+                        <ul>
+                            <li class="list-icon-new-hot">Added internationalization support</li>
+                            <li class="list-icon-new-hot">Added Pause, Resume and Cancel CanvasAsync functions to go with LoadCanvasAsync</li>
+                            <li class="list-icon-new">Added keyboard shortcuts for annotation copy, paste, save and toggle</li>
+                            <li class="list-icon-new">The scroll wheel now changes pages in non-continuous modes</li>
+                            <li class="list-icon-new">Removed the extra iframe that was used by the desktop viewer</li>
+                            <li class="list-icon-new">Added a persistent custom attribute "Custom" to all annotations</li>
+                            <li class="list-icon-new">Allowed customization of annotation popup element</li>
+                            <li class="list-icon-new">Updated how display modes are handled so that they can be customized more easily</li>
+                            <li class="list-icon-new">Added consistent console warnings when attempting to call a WebViewer function that isn't implemented</li>
+                            <li class="list-icon-new">Annotation notes are now displayed in the same location when rotating or changing the zoom level</li>
+                            <li class="list-icon-new">Improved performance when loading a large xfdf file</li>
+                            <li class="list-icon-bug">Fixed issue with popups sometimes not being able to be minimized</li>
+                            <li class="list-icon-bug">Fixed issue where the popup note tail would sometimes be drawn in the wrong location</li>
+                            <li class="list-icon-bug">Fixes for display modes when using WebViewer</li>
+                            <li class="list-icon-bug">Fixed issue where annotations with transparent stroke or fill were not displaying correctly in the annotation menu</li>
+                            <li class="list-icon-bug">Fixed issue where the annotation selection rectangle was not being displayed</li>
+                            <li class="list-icon-bug">Fixed issue when loading form data into a field whose name contains whitespace</li>
+                            <li class="list-icon-bug">Fixed issue where a page number could not be entered and changed to in IE</li>
+                        </ul>
+
+                        <b>WebViewer Mobile Updates</b>
+                        <ul>
+                            <li class="list-icon-new-hot">Reworked pinch zooming so that the zoom level could be increased</li>
+                            <li class="list-icon-new-hot">Added double tap zooming support</li>
+                            <li class="list-icon-new-hot">Added support for Windows tablets and Windows Phone</li>
+                            <li class="list-icon-new-hot">Added support for embedding in a native Android app</li>
+                            <li class="list-icon-new">Added support for the get/set zoom level WebViewer functions</li>
+                            <li class="list-icon-new">Increased the size of the hit box for annotation control points</li>
+                            <li class="list-icon-new">Menu icons are now preloaded</li>
+                            <li class="list-icon-bug">Added workarounds so that the page number box works on Android</li>
+                            <li class="list-icon-bug">Use the correct font size for widgets</li>
+                            <li class="list-icon-bug">Fixed issue with swiping quickly back and forth to the same page</li>
+                            <li class="list-icon-bug">Fixed issue where toggling annotations would not hide any annotations on adjacent pages</li>
+                            <li class="list-icon-bug">Fixed issues with searching while zoomed in</li>
+                            <li class="list-icon-bug">Fixed issues with interactions between popup notes and the fixed menus</li>
+                            <li class="list-icon-bug">Fixed issue where pages could be displayed in the wrong location</li>
+                        </ul>
+
+                        <b>WebViewer Flash Updates</b>
+                        <ul>
+                            <li class="list-icon-new-hot">Added support for loading encrypted XOD files</li>
+                        </ul>
+
+                        <b>WebViewer Silverlight Updates</b>
+                        <ul>
+                            <li class="list-icon-new-hot">Added support for xfdf annotations</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="project">    
+                    <h3>Version 1.4</h3>
+                    <h4>April 17, 2013 version 1.4.2</h4>
+                    <div class="section">
+                        <b>WebViewer HTML5 Updates</b>
+                        <ul>
+                            <li class="list-icon-new">Added annotationUser and annotationAdmin options</li>
+                            <li class="list-icon-new">Added a cache hinting parameter to the part retrievers</li>
+                            <li class="list-icon-new">Added the ability to pass custom data to the WebViewer</li>
+                            <li class="list-icon-new">Added support for even-odd rule in Chrome and Firefox</li>
+                            <li class="list-icon-new">Only center annotations if they are selected from the annotation list</li>
+                            <li class="list-icon-bug">Fixed issues with using serverUrl from WebViewer</li>
+                            <li class="list-icon-bug">Fixed issues related to resizing the window while in non-zoom fit modes</li>
+                            <li class="list-icon-bug">Fix to allow dotted lines to be displayed in IE and Chrome</li>
+                            <li class="list-icon-bug">Fixed an issue where large documents would not load at high zoom levels</li>
+                            <li class="list-icon-bug">Fixed an issue with mailto links</li>
+                            <li class="list-icon-bug">Fixed an issue where some WebViewer options were not being set correctly</li>
+                            <li class="list-icon-bug">Jump to an annotation correctly when selecting it from the annotation list and it's not in view</li>
+                        </ul>
+
+                        <b>WebViewer Mobile Updates</b>
+                        <ul>
+                            <li class="list-icon-new">Allow overriding of the LoadDocument function in custom config files</li> 
+                        </ul>
+                    </div>
+                    <h4>February 26, 2013 version 1.4.1</h4>
+                    <div class="section">
+                        <b>WebViewer HTML5 Updates</b>
+                        <ul>
+                            <li class="list-icon-bug">Fixed an issue where popups were sometimes not able to be minimized</li>
+                            <li class="list-icon-bug">Fixed a crash in Safari for Windows</li>
+                            <li class="list-icon-bug">Fixed an issue where pages would sometimes not load until they were completely visible</li>
+                        </ul>
+
+                        <b>WebViewer Mobile Updates</b>
+                        <ul>
+                            <li class="list-icon-bug">Fixed an issue with annotation toggling</li>
+                        </ul>
+                    </div>
+                    <h4>February 12, 2013 version 1.4.0</h4>
+                    <div class="section">
+                        <b>WebViewer HTML5 Updates</b>
+                        <ul>
+                            <li class="list-icon-new-hot">Added support for PDF Forms (submit form data directly from viewer)</li>
+                            <li class="list-icon-new-hot">Introduced new Customization Framework through configuration files</li>
+                            <li class="list-icon-new-hot">Added DRM Support through XOD encryption</li>                        
+                            <li class="list-icon-new">Added support for theming in ReaderControl through jQuery UI</li>                        
+                            <li class="list-icon-new">Added support for offline mode</li>       
+                            <li class="list-icon-new">API Reference now includes documentation for ReaderControl</li>                        
+                            <li class="list-icon-bug">Fixed an issue where annotation popup content was not being loaded</li>                        
+                            <li class="list-icon-bug">Fixed an issue in the thumbnail panel that caused the previews not to show up for large documents</li>                        
+                        </ul>
+
+                        <b>WebViewer Mobile Updates</b>
+                        <ul class="list-icon-new">
+                            <li class="list-icon-new-hot">Added support for annotation loading and saving</li>       
+                            <li class="list-icon-new-hot">Added support for PDF Forms (submit form data directly from viewer)</li>
+                            <li class="list-icon-new-hot">Added DRM Support through XOD encryption</li>       
+                            <li class="list-icon-new">Partial support for the new HTML5 Customization Framework</li>         
+                            <li class="list-icon-new">New and improved user interface</li>         
+                            <li class="list-icon-new">Added support for offline mode</li>       
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <h3>Version 1.3</h3>
+                    <h4>November 27, 2012 version 1.3.2</h4>
+                    <div class="section">
+                        <b>WebViewer HTML5 Updates</b>
+                        <ul class="list-icon-new">
+                            <li>Added ctrl+click multi-selection support for annotations.</li>
+                            <li>Control points are now fixed sized, regardless of zoom level.</li>
+                            <li>Added a basic PHP sample server script to handle server-side annotation saving and loaded. See: annotationHandler.php</li>           
+                        </ul>
+
+                        <b>WebViewer Mobile Updates</b>
+                        <ul>
+                            <li class="list-icon-bug">Fixed an issue in rendering certain images on retina display devices.</li>
+                            <li class="list-icon-bug">Fixed a problem where documents links were not working in the HTML5 mobile viewer.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="wrapper top-line">
+                <a href="http://www.pdftron.com" target="_blank">&COPY; 2015 PDFTron Systems, Inc.</a>
+            </div>
+
+        </div>
+    </body>
+</html>
