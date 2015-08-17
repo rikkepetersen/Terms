@@ -2,542 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6682d276-62d4-4920-a594-e3c5b57eaf89" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/iOS/WebviewDemo/Default-568h@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/iOS/WebviewDemo/Default.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/iOS/WebviewDemo/Default@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/GettingStarted.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/offline-library/GettingStarted.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/GettingStarted.xod" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/winrt/WinRTWebViewerSample/Assets/Logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/pdf/PDFNetC.js.mem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/doc/PDFTron.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/doc/symbols/PDFTron.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/PDFTron.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/PDFTron.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/pdf/PDFWorker.pexe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/winrt/WinRTWebViewerSample/Assets/SmallLogo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/winrt/WinRTWebViewerSample/Assets/SplashScreen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/winrt/WinRTWebViewerSample/Assets/StoreLogo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/offline-library/WebViewer_Developer_Guide.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/doc/WebViewer_Developer_Guide.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/doc/WebViewer_Developer_Guide.xod" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/offline-library/WebViewer_User_Guide.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/doc/WebViewer_User_Guide.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/doc/WebViewer_User_Guide.xod_old" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/winrt/WinRTWebViewerSample/WinRTWebViewerSample_TemporaryKey.pfx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/action-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/action-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/ajax-loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/deckjs/ajax-loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/alert-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/alert-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/android/libs/android-support-v4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/custom-annotations/annot_custom_diamond.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/arrow-d-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/arrow-d-l-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/arrow-d-l-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/arrow-d-r-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/arrow-d-r-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/arrow-d-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/arrow-l-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/arrow-l-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/arrow-r-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/arrow-r-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/arrow-u-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/arrow-u-l-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/arrow-u-l-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/arrow-u-r-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/arrow-u-r-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/arrow-u-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/audio-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/audio-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/back-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/back-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/bars-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/bars-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/bullets-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/bullets-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/calendar-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/calendar-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/camera-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/camera-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/carat-d-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/carat-d-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/carat-l-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/carat-l-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/carat-r-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/carat-r-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/carat-u-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/carat-u-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/check-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/check-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/Resources/checkmark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/clock-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/clock-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/cloud-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/cloud-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/Resources/color_none.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/comment-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/comment-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/Resources/icons/fonts/custom.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/Resources/icons/fonts/custom.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/Resources/icons/fonts/custom.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/android/assets/xod/default.xod" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/delete-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/delete-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/Resources/dragginghand.cur" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/Resources/dragginghand.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/edit-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/edit-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/eval_license.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/eye-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/eye-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/forbidden-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/forbidden-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/files/form-actions.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/files/form-actions.xod" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/files/form1.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/offline-library/form1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/files/form1.xod" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/offline-library/form_actions.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/forward-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/forward-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/gear-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/gear-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/Resources/icons/fonts/glyphicons-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/Resources/icons/fonts/glyphicons-regular.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/Resources/icons/fonts/glyphicons-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/Resources/icons/fonts/glyphicons-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/Resources/icons/images/glyphicons-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/Resources/icons/images/glyphicons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/images/glyphicons_072_bookmark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/grid-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/grid-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/Resources/hand.cur" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/Resources/hand.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/heart-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/heart-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/home-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/home-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/android/ic_folder_white-web.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/android/res/drawable-hdpi/ic_folder_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/android/res/drawable-mdpi/ic_folder_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/android/res/drawable-xhdpi/ic_folder_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/android/res/drawable-xxhdpi/ic_folder_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/android/ic_launcher-web.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/android/res/drawable-hdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/android/res/drawable-mdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/android/res/drawable-xhdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/android/res/drawable-xxhdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/cordova/www/res/icon/bada/icon-128.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/cordova/www/res/icon/tizen/icon-128.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/cordova/www/res/icon/windows-phone/icon-173-tile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/cordova/www/res/icon/android/icon-36-ldpi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/cordova/www/res/icon/android/icon-48-mdpi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/cordova/www/res/icon/bada-wac/icon-48-type5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/cordova/www/res/icon/windows-phone/icon-48.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/cordova/www/res/icon/bada-wac/icon-50-type3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/cordova/www/res/icon/ios/icon-57-2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/cordova/www/res/icon/ios/icon-57.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/cordova/www/res/icon/windows-phone/icon-62-tile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/cordova/www/res/icon/webos/icon-64.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/cordova/www/res/icon/ios/icon-72-2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/cordova/www/res/icon/android/icon-72-hdpi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/cordova/www/res/icon/ios/icon-72.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/cordova/www/res/icon/bada-wac/icon-80-type4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/cordova/www/res/icon/blackberry/icon-80.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/cordova/www/res/icon/android/icon-96-xhdpi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/info-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/info-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/images/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/location-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/location-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/lock-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/lock-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/mail-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/mail-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/minus-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/minus-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/Resources/minus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/Resources/minus_circle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/navigation-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/navigation-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/Resources/ok_circle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/pdf/pdfnet.res" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/phone-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/phone-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/plus-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/plus-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/Resources/plus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/power-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/power-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/recycle-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/recycle-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/refresh-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/refresh-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/search-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/search-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/shop-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/shop-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/star-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/star-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/tag-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/tag-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/doc/test.xod" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/files/tiger-encrypted.xod" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/offline-library/tiger.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/files/tiger.xod" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/images/treeview-default-line.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/images/treeview-default.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/images/ui-bg_flat_0_aaaaaa_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery-ui/themes/cloud/images/ui-bg_flat_0_aaaaaa_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/images/ui-bg_flat_75_ffffff_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery-ui/themes/cloud/images/ui-bg_flat_75_ffffff_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery-ui/themes/cloud/images/ui-bg_glass_55_fbf9ee_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery-ui/themes/cloud/images/ui-bg_glass_65_CBE6EF_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/images/ui-bg_glass_65_ffffff_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/images/ui-bg_glass_75_dadada_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery-ui/themes/cloud/images/ui-bg_glass_75_dadada_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/images/ui-bg_glass_75_e6e6e6_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery-ui/themes/cloud/images/ui-bg_glass_75_e6e6e6_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery-ui/themes/cloud/images/ui-bg_glass_95_fef1ec_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/images/ui-bg_highlight-soft_75_cccccc_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery-ui/themes/cloud/images/ui-bg_highlight-soft_75_cccccc_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/images/ui-icons_222222_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery-ui/themes/cloud/images/ui-icons_222222_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery-ui/themes/cloud/images/ui-icons_2e83ff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/images/ui-icons_454545_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery-ui/themes/cloud/images/ui-icons_454545_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/images/ui-icons_888888_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery-ui/themes/cloud/images/ui-icons_888888_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery-ui/themes/cloud/images/ui-icons_cd0a0a_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/user-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/user-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/Resources/user.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/video-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/images/icons-png/video-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/android/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/AnnotationEdit.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/AnnotationEdit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Annotations.Annotation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Annotations.BoxControlHandle.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Annotations.BoxSelectionModel.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Annotations.ButtonWidgetAnnotation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Annotations.CalloutControlHandle.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Annotations.CaretAnnotation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Annotations.ChoiceWidgetAnnotation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Annotations.Color.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Annotations.ControlHandle.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Annotations.EllipseAnnotation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Annotations.FreeHandAnnotation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Annotations.FreeTextAnnotation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Annotations.FreeTextSelectionModel.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Annotations.IPathAnnotation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Annotations.LineAnnotation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Annotations.LineControlHandle.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Annotations.LineSelectionModel.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Annotations.MarkupAnnotation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Annotations.PathControlHandle.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Annotations.PathSelectionModel.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Annotations.Point.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Annotations.PolygonAnnotation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Annotations.PolylineAnnotation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Annotations.PopupAnnotation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Annotations.Rect.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Annotations.RectangleAnnotation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Annotations.SelectionAlgorithm.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Annotations.SelectionModel.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Annotations.SignatureWidgetAnnotation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Annotations.StampAnnotation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Annotations.StickyAnnotation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Annotations.TextHighlightAnnotation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Annotations.TextMarkupAnnotation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Annotations.TextSelectionModel.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Annotations.TextSquigglyAnnotation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Annotations.TextStrikeoutAnnotation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Annotations.TextUnderlineAnnotation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Annotations.TextWidgetAnnotation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Annotations.WidgetAnnotation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Annotations.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/winrt/WinRTWebViewerSample/App.xaml.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/winrt/WinRTWebViewerSample/App.xaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/iOS/WebviewDemo/AppDelegate.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/iOS/WebviewDemo/AppDelegate.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/winrt/WinRTWebViewerSample/Properties/AssemblyInfo.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/Autolinker.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/BaseReaderControl.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/BaseReaderControl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/ControlUtils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/CoreControls.AnnotationManager.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/CoreControls.Bookmark.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/CoreControls.DisplayMode.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/CoreControls.DisplayModeManager.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/CoreControls.DisplayModes.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/CoreControls.Document.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/CoreControls.DocumentViewer.FitMode.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/CoreControls.DocumentViewer.SearchMode.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/CoreControls.DocumentViewer.SearchResults.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/CoreControls.DocumentViewer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/CoreControls.Hyperlink.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/CoreControls.Link.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/CoreControls.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/CoreControls.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/CoreWorker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/DecryptWorker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/FileSaver.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/GettingStarted.rtf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/iOS/WebviewDemo/en.lproj/InfoPlist.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/android/src/com/pdftron/webviewer/LocalFileContentProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/deckjs/MIT-license.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/winrt/WinRTWebViewerSample/MainPage.xaml.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/winrt/WinRTWebViewerSample/MainPage.xaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/MobileReaderControl.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/MobileReaderControl.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/MobileReaderControl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/NotesPanel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/pdf/PDFNetC.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/pdf/PDFReaderControl.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/pdf/PDFReaderControl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/doc/symbols/PDFTron.WebViewer.FitMode.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/doc/symbols/PDFTron.WebViewer.LayoutMode.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/doc/symbols/PDFTron.WebViewer.Options.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/doc/symbols/PDFTron.WebViewer.ToolMode.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/doc/symbols/PDFTron.WebViewer.User.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/doc/symbols/PDFTron.WebViewer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/doc/symbols/PDFTron.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/pdf/PDFWorker.nmf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/pdf/PDFworker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/winrt/WinRTWebViewerSample/Package.appxmanifest" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/PartRetrievers.AndroidContentPartRetriever.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/PartRetrievers.AzurePartRetriever.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/PartRetrievers.HttpPartRetriever.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/PartRetrievers.IOSPartRetriever.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/PartRetrievers.LocalPartRetriever.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/PartRetrievers.StreamingPartRetriever.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/PartRetrievers.WinRTPartRetriever.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/PartRetrievers.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/android/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/android/assets/html5/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/cordova/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/iOS/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/iOS/WebviewDemo/html5/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/ReaderControl.config.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/ReaderControl.config.ui.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/ReaderControl.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/ReaderControl.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/ReaderControl.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/ReaderControl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/ReaderControlConfig.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/pdf/ResizableWorker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/winrt/WinRTWebViewerSample/Common/StandardStyles.xaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Tools.AnnotationEditTool.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Tools.AnnotationSelectTool.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Tools.ArrowCreateTool.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Tools.CalloutCreateTool.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Tools.EllipseCreateTool.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Tools.FreeHandCreateTool.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Tools.FreeTextCreateTool.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Tools.GenericAnnotationCreateTool.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Tools.LineCreateTool.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Tools.PageCoordinate.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Tools.PanTool.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Tools.PolygonCreateTool.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Tools.PolylineCreateTool.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Tools.RectangleCreateTool.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Tools.SignatureCreateTool.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Tools.StickyCreateTool.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Tools.TextAnnotationCreateTool.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Tools.TextHighlightCreateTool.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Tools.TextSelectTool.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Tools.TextSquigglyCreateTool.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Tools.TextStrikeoutCreateTool.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Tools.TextTool.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Tools.TextUnderlineCreateTool.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Tools.Tool.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/Tools.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/iOS/WebviewDemo/Utils.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/iOS/WebviewDemo/Utils.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/iOS/WebviewDemo/ViewController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/iOS/WebviewDemo/ViewController.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/iOS/WebviewDemo/en.lproj/ViewController_iPad.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/iOS/WebviewDemo/en.lproj/ViewController_iPhone.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/WebViewer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/WebViewer.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/android/src/com/pdftron/webviewer/WebViewerActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/WebViewerInterface.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/WebViewerInterface.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/doc/WebViewer_Developer_Guide.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/doc/WebViewer_User_Guide.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/iOS/WebviewDemo/WebviewDemo-Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/iOS/WebviewDemo/WebviewDemo-Prefix.pch" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/winrt/WinRTWebViewerSample/WinRTWebViewerSample.csproj" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/winrt/WinRTWebViewerSample.sln" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/doc/symbols/_global_.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/symbols/_global_.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/annotationHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/hide-annotations/annots.xfdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/deckjs/boilerplate.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/annotation/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/custom-signature/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/customization/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/display-mode/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/encryption/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/form-actions/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/forms/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/hide-annotations/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/i18n/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/offline/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/stamp-image/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/text-position/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/webviewer-controls/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/cordova/www/config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/iOS/WebviewDemo.xcodeproj/project.xcworkspace/contents.xcworkspacedata" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/context.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/context.standalone.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/Resources/icons/css/controls.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/deckjs/custom.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/Resources/icons/fonts/custom.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/Resources/icons/css/customicons.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/deckjs/core/deck.core.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/deckjs/core/deck.core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/deckjs/core/deck.core.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/deckjs/extensions/goto/deck.goto.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/deckjs/extensions/goto/deck.goto.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/deckjs/extensions/goto/deck.goto.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/deckjs/extensions/goto/deck.goto.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/deckjs/extensions/hash/deck.hash.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/deckjs/extensions/hash/deck.hash.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/deckjs/extensions/hash/deck.hash.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/deckjs/extensions/hash/deck.hash.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/deckjs/extensions/menu/deck.menu.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/deckjs/extensions/menu/deck.menu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/deckjs/extensions/menu/deck.menu.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/deckjs/extensions/navigation/deck.navigation.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/deckjs/extensions/navigation/deck.navigation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/deckjs/extensions/navigation/deck.navigation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/deckjs/extensions/navigation/deck.navigation.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/deckjs/extensions/scale/deck.scale.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/deckjs/extensions/scale/deck.scale.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/deckjs/extensions/scale/deck.scale.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/deckjs/extensions/status/deck.status.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/deckjs/extensions/status/deck.status.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/deckjs/extensions/status/deck.status.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/deckjs/extensions/status/deck.status.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/defaultScriptExtension.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/defaultStyleExtension.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/encryption/desktop.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/custom-annotations/diamond.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/android/res/values/dimens.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/android/res/values-sw600dp/dimens.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/android/res/values-sw720dp-land/dimens.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/docViewer.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/drop/css/drop-theme-arrows-bounce-dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/drop/css/drop-theme-arrows-bounce.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/drop/css/drop-theme-arrows.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/drop/css/drop-theme-basic.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/drop/css/drop-theme-hubspot-popovers.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/drop/css/extras/drop-twitter-bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/drop/drop.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/drop/js/drop.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/drop/drop.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/deckjs/themes/transition/fade.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/deckjs/themes/transition/fade.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/fastclick.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/flipbook/flipbook.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/flipbook/flipbook.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/formDataHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/Resources/icons/fonts/glyphicons-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/Resources/icons/images/glyphicons-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/Resources/icons/css/glyphicons.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/Resources/icons/images/glyphicons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/deckjs/themes/transition/horizontal-slide.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/deckjs/themes/transition/horizontal-slide.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/i18next-1.6.0.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/Resources/icon_credits.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/doc/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/doc/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/accessible/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/annotation/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/cordova/www/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/cors/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/custom-annotations/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/custom-signature/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/customization/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/deckjs/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/deckjs/introduction/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/display-mode/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/flipbook/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/form-actions/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/forms/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/hide-annotations/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/i18n/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/local-pdf/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/offline/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/offline-library/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/stamp-image/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/text-position/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/user-permissions/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/jquery-1.7.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery-1.7.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/deckjs/jquery-1.7.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery-2.1.0.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery-ui/themes/cloud/jquery-ui-1.11.1.custom.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery-ui/jquery-ui-1.11.1.custom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery-ui/themes/cloud/jquery-ui-1.11.1.custom.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery-ui/jquery-ui-1.11.1.custom.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.cookie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.doubletap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.flexibleArea.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/jquery.mobile-1.4.4.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/jquery.mobile-1.4.4.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/jquery.mobile.custom.structure.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/jquery.mobile.custom.theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mobile/jquery.mobile.icons-1.4.4.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.mousewheel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.treeview.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/jquery.treeview.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/legal.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/legal.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/iOS/WebviewDemo/main.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/mobileSetup.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/modernizr.custom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/deckjs/modernizr.custom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/moment.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/deckjs/themes/style/neon.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/deckjs/themes/style/neon.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/offline-library/offline-sample.appcache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/iOS/WebviewDemo.xcodeproj/project.pbxproj" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/android/res/values/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/Resources/icons/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/android/res/values/styles.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/android/res/values-v11/styles.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/android/res/values-v14/styles.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/deckjs/themes/style/swiss.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/deckjs/themes/style/swiss.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/touchr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/Resources/i18n/translation-en.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/Resources/i18n/translation-es.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/Resources/i18n/translation-fr.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/Resources/i18n/translation-gl.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/Resources/i18n/translation-pt_br.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/Resources/i18n/translation-ru.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/turn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/tutorials.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/deckjs/themes/transition/vertical-slide.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/deckjs/themes/transition/vertical-slide.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/deckjs/viewer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/android/res/layout/viewer.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/deckjs/themes/style/web-2.0.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/deckjs/themes/style/web-2.0.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/android/res/menu/web_viewer.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/samples/webviewer-controls/webviewer-controls.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/whatsnew.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webviewer/lib/html5/external/xdomain.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -597,8 +61,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5648734">
-              <caret line="224" column="112" selection-start-line="224" selection-start-column="54" selection-end-line="224" selection-end-column="112" />
+            <state vertical-scroll-proportion="0.15668203">
+              <caret line="158" column="17" selection-start-line="158" selection-start-column="17" selection-end-line="158" selection-end-column="17" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#md-input-container#0;n#div#0;n#md-toolbar#0;n#md-content#0;n#div#0;n#body#0;n#div#0;n#!!top" expanded="true" />
@@ -708,9 +172,9 @@
         <option value="$PROJECT_DIR$/webviewer/samples/flipbook/index.html" />
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/styles.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/webviewer/samples/annotation/config.js" />
         <option value="$PROJECT_DIR$/webviewer/samples/annotation/index.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -1175,7 +639,7 @@
       <workItem from="1439534022195" duration="9135000" />
       <workItem from="1439637669583" duration="188000" />
       <workItem from="1439792459832" duration="3293000" />
-      <workItem from="1439801522058" duration="9412000" />
+      <workItem from="1439801522058" duration="10538000" />
     </task>
     <task id="LOCAL-00001" summary="Ready for GitHub">
       <created>1439300003782</created>
@@ -1213,26 +677,33 @@
       <option name="project" value="LOCAL" />
       <updated>1439557360631</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Text styled in css, scroll in sidenav., and togglenavigation added. (Togglenav. for buttons in topguide for now.)2">
+      <created>1439816577595</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1439816577595</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91228000" />
+    <option name="totallyTimeSpent" value="92354000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1928" height="1164" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32941177" sideWeight="0.5021299" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3107843" sideWeight="0.5021299" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32941177" sideWeight="0.4978701" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3107843" sideWeight="0.4978701" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3019608" sideWeight="0.48668796" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24813631" sideWeight="0.8362745" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24813631" sideWeight="0.8362745" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.1637255" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1245,7 +716,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298872" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1706,8 +1176,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5648734">
-          <caret line="224" column="112" selection-start-line="224" selection-start-column="54" selection-end-line="224" selection-end-column="112" />
+        <state vertical-scroll-proportion="0.15668203">
+          <caret line="158" column="17" selection-start-line="158" selection-start-column="17" selection-end-line="158" selection-end-column="17" />
           <folding>
             <element signature="n#style#0;n#body#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#md-input-container#0;n#div#0;n#md-toolbar#0;n#md-content#0;n#div#0;n#body#0;n#div#0;n#!!top" expanded="true" />
